@@ -9,8 +9,8 @@ def render():
 
 @app.route('/C')
 def runC():
-    subprocess.call(['make', '-C', 'c++'])
-    process =Popen(['./c++/q1'],stdout = PIPE,stderr = PIPE)
+    subprocess.call(['make', '-C', '../c++'])
+    process =Popen(['./../c++/q1'],stdout = PIPE,stderr = PIPE)
     stdout,stderr = process.communicate()
     return stdout
 @app.route('/remine')
