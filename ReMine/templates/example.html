@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <title>My title</title>
-</head>
+    <head>
+        <title>Remine Demo</title>
+        <link rel = "stylesheet" type = "text/css" href = "{{ url_for('static', filename='style.css') }}"/>
+        <script src="{{ url_for('static', filename='func.js') }}"></script>
+    </head>
 
-<body>
-    <p>Flask can display HTML pages</p>
-</body>
+    <body>
+
+        <p class = "title">
+            Remine Demo
+        </p>
+
+        <div class = "input">
+
+            <p class = "intro">
+                introduction
+            </p>
+
+            <div class = "selector">
+                <select class = "select">
+                    <option value = "s1">s1</option>
+                    <option value = "s2">s2</option>
+                    <option value = "s3">s3</option>
+                    <option value = "s4">s4</option>
+                </select>
+            </div>
+
+            <div class = "textInput">
+                <textarea id = "inText" type = "text" name = "corpus" class = "textFrame"></textarea><br>
+                <input type = "submit" value = "Submit" class = "button" onclick="submitCorpus()">
+            </div>
+
+        </div>
+
+        <div class = "output">
+            <p id = "outText" class = "textOutput">
+
+            </p>
+        </div>
+
+    </body>
 
 </html>
