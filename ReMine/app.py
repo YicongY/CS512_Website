@@ -15,9 +15,9 @@ def runC():
     return stdout
 @app.route('/remine')
 def runRemine():
-    subprocess.call(['bash ../ReMine/remine-ie.sh'])
+    subprocess.call(['bash remine-ie.sh'])
     ret = []
-    with open('../ReMine/results_remine/remine_result.txt','r') as f:
+    with open('results_remine/remine_result.txt','r') as f:
         for line in f:
             ret.append(line)
     return ret
