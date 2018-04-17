@@ -1,6 +1,6 @@
 from flask import Flask,request,render_template
 
-import subprocess
+from subprocess import Popen,PIPE
 app = Flask(__name__)
 
 @app.route('/')
@@ -9,8 +9,9 @@ def render():
 
 @app.route('/C')
 def runC():
-    result = subprocess.run(['./../c++/q1'],stdout = subprocess.PIPE)
-    return result.stdout
+    process =Popen(['.','/../c++/q1'],stdout = PIPE)
+    stdout = process.communicate()
+    return stdout
 
 if __name__=='__main__':
     app.run(debug = True, host = '0.0.0.0',port=1111)
