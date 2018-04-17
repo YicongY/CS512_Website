@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28aaf78c-76bc-43a6-a49d-4484f5660e41" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/backend/app.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/backend/templates/example.html" afterPath="" />
-    </list>
+    <list default="true" id="28aaf78c-76bc-43a6-a49d-4484f5660e41" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
