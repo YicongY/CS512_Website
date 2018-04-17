@@ -9,8 +9,8 @@ def render():
 
 @app.route('/C')
 def runC():
-    process =Popen(['.','/../c++/q1'],stdout = PIPE)
-    stdout = process.communicate()
+    process =Popen(['.','/../c++/q1'],stdout = PIPE,stderr = PIPE)
+    stdout,stderr = process.communicate()
     return stdout
 
 if __name__=='__main__':
