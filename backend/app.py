@@ -9,7 +9,7 @@ def render():
 
 @app.route('/C')
 def runC():
-    process =Popen(['.','/../c++/q1'],stdout = PIPE,stderr = PIPE)
+    process =Popen(['./../c++/q1'],stdout = PIPE,stderr = PIPE)
     stdout,stderr = process.communicate()
     return stdout
 
