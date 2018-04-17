@@ -13,7 +13,7 @@ def runC():
     process =Popen(['./../c++/q1'],stdout = PIPE,stderr = PIPE)
     stdout,stderr = process.communicate()
     return stdout
-@app.route('/remine', methods =['GET'])
+@app.route('/remine', methods =['POST'])
 def runRemine():
     #subprocess.call(['bash','remine-ie.sh'])
     ret = []
