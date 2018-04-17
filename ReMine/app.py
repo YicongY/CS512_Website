@@ -1,4 +1,4 @@
-from flask import Flask,request,render_template,jsonify
+from flask import Flask,request,render_template,jsonify,Response
 import subprocess
 from subprocess import Popen,PIPE
 #from flask_cors import CORS, cross_origin
@@ -25,8 +25,8 @@ def runRemine():
     with open('results_remine/remine_result.txt','r') as f:
         for line in f:
             ret.append(line)
-
-    return request.form[jsonify({'tuple':ret})]
+    dict1 = {"tuples": ret}
+    return Response(json.dumps(dict1),mimetype = 'application/json')
 
 
 
