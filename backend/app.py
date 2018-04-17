@@ -1,5 +1,5 @@
 from flask import Flask,request,render_template
-
+import subprocess
 from subprocess import Popen,PIPE
 app = Flask(__name__)
 
@@ -9,6 +9,7 @@ def render():
 
 @app.route('/C')
 def runC():
+    subprocess.call(['make', '-C', '../c++'])
     process =Popen(['./../c++/q1'],stdout = PIPE,stderr = PIPE)
     stdout,stderr = process.communicate()
     return stdout
