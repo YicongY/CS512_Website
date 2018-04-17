@@ -1,11 +1,11 @@
 from flask import Flask,request,render_template,jsonify,Response
 import subprocess
 from subprocess import Popen,PIPE
-#from flask_cors import CORS, cross_origin
+from flask_cors import CORS, cross_origin
 
 app = Flask(__name__)
-#cors = CORS(app)
-#app.config['CORS_HEADERS'] = 'Content-Type'
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 
 @app.route('/')
