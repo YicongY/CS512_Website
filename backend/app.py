@@ -13,6 +13,16 @@ def runC():
     process =Popen(['./../c++/q1'],stdout = PIPE,stderr = PIPE)
     stdout,stderr = process.communicate()
     return stdout
+@app.route('/remine')
+def runRemine():
+    subprocess.call(['bash ../../_Github/ReMine-release/remine-ie.sh'])
+    ret = []
+    with open('../../_Github/ReMine-release/results_remine/remine_result.txt','r') as f:
+        for line in f:
+            ret.append(line)
+    return ret
+        
+
 
 if __name__=='__main__':
     app.run(debug = True, host = '0.0.0.0',port=1111)
