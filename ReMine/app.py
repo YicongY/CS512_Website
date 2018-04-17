@@ -25,8 +25,8 @@ def runRemine():
     with open('results_remine/remine_result.txt','r') as f:
         for line in f:
             ret.append(line)
-    dict1 = {"tuples": ret}
-    return Response(json.dumps(dict1),mimetype = 'application/json')
+
+    return Response(jsonify({'tuple':ret}), mimetype = 'application/json')
 
 
 
