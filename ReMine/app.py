@@ -1,4 +1,4 @@
-from flask import Flask,request,render_template
+from flask import Flask,request,render_template,jsonify
 import subprocess
 from subprocess import Popen,PIPE
 app = Flask(__name__)
@@ -20,7 +20,7 @@ def runRemine():
     with open('results_remine/remine_result.txt','r') as f:
         for line in f:
             ret.append(line)
-    return ret
+    return jsonify({'tuple':ret})
 
 
 
