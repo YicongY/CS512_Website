@@ -30,10 +30,9 @@ def runRemine():
     with open('results_remine/remine_result.txt','r') as f:
         for line in f:
             ret.append(line)
-    input = request.get_json()
+    input = request.data
+    #text = input.get('text')
     print(input)
-    text = input.get('text')
-    print(text)
     return jsonify({'tuple':ret})
 
 
