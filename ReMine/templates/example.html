@@ -10,17 +10,17 @@
     <body>
 
         <p class = "title">
-            Remine Demo
+            ReMine Demo
         </p>
 
         <div class = "input">
 
             <p class = "intro">
-                introduction
+                This is a demo of novel open IE system—ReMine. It integrates local context signal and global structural signal in a unified framework with distant supervision. The input is corpus. The outputs will return relation tuples. Experiments on two real-world corpora of different domains demonstrate that ReMine system achieves superior precision when outputting same number of extractions, compared with several state-of-the-art open IE systems.
             </p>
 
             <div class = "selector">
-                <select class = "select">
+                <select id = "selection" class = "select">
                     <option value = "s1">s1</option>
                     <option value = "s2">s2</option>
                     <option value = "s3">s3</option>
@@ -30,15 +30,13 @@
 
             <div class = "textInput">
                 <textarea id = "inText" type = "text" name = "corpus" class = "textFrame"></textarea><br>
-                <input type = "submit" value = "Submit" class = "button" onclick="makeCorsRequest()">
+                <input type = "submit" value = "Submit" class = "button" onclick="submitCorpus()">
             </div>
 
         </div>
 
-        <div class = "output">
-            <p id = "outText" class = "textOutput">
+        <div id = "outText" class = "output">
 
-            </p>
         </div>
 
     </body>
