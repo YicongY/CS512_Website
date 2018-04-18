@@ -38,7 +38,7 @@ def runRemine():
 
 
 if __name__=='__main__':
-    app.run(debug = True, host = '0.0.0.0',port=1111)
-    #http_server = WSGIServer(('0.0.0.0', 1111), app)
-    #http_server.serve_forever()
+    #app.run(debug = True, host = '0.0.0.0',port=1111)
+    http_server = WSGIServer(('0.0.0.0', 1111), app)
+    http_server.serve_forever()
     #app.run(debug = True, host = 'localhost', port=5000)
