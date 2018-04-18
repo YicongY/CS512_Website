@@ -5,8 +5,11 @@ function submitCorpus() {
     console.log(selection);
     let xhr = new XMLHttpRequest();
     xhr.open("POST", "http://dmserv4.cs.illinois.edu:1111/remine", true);
-    xhr.setRequestHeader("Cache-Control", "no-cache");
-    xhr.send();
+    xhr.setRequestHeader('Content-Type', 'application/json')
+    var sendText = JSON.parse('{ "text":"" }');
+    sendText.text = intext;
+    console.log(sendText);
+    xhr.send(intext);
     xhr.onload = function (e) {
         if (xhr.readyState === 4) {
             if (xhr.status === 200) {
