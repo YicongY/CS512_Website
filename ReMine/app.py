@@ -1,7 +1,7 @@
 from flask import Flask,request,render_template,jsonify,Response
 import subprocess
 from subprocess import Popen,PIPE
-from gevent.wsgi import WSGIServer
+#from gevent.wsgi import WSGIServer
 
 #from flask_cors import CORS, cross_origin
 app = Flask(__name__)
@@ -35,7 +35,7 @@ def runRemine():
 
 
 if __name__=='__main__':
-    #app.run(debug = True, host = '0.0.0.0',port=1111)
-    http_server = WSGIServer(('0.0.0.0', 1111), app)
-    http_server.serve_forever()
+    app.run(debug = True, host = '0.0.0.0',port=1111)
+    #http_server = WSGIServer(('0.0.0.0', 1111), app)
+    #http_server.serve_forever()
     #app.run(debug = True, host = 'localhost', port=5000)
