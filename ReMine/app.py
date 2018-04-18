@@ -32,7 +32,7 @@ def runRemine():
             ret.append(line)
     input = request.get_json()
     print(input)
-    text = input['text']
+    text = input.get('text')
     print(text)
     return jsonify({'tuple':ret})
 
