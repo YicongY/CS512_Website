@@ -1,52 +1,28 @@
 function submitCorpus() {
-    let c = document.getElementById('inText').value;
-    var xhr = new XMLHttpRequest();
+    let intext = document.getElementById('inText').value;
+    let selection = document.getElementById('selection').value;
+    console.log(intext);
+    console.log(selection);
+    let xhr = new XMLHttpRequest();
     xhr.open("POST", "http://dmserv4.cs.illinois.edu:1111/remine", true);
-    xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    xhr.setRequestHeader("Cache-Control", "no-cache");
     xhr.send();
-    console.log(xhr);
-    document.getElementById("outText").innerHTML=xhr.responseText;
-}
-
-
-function createCORSRequest(method, url) {
-  var xhr = new XMLHttpRequest();
-  if ("withCredentials" in xhr) {
-    // XHR for Chrome/Firefox/Opera/Safari.
-    xhr.open(method, url, true);
-  } else if (typeof XDomainRequest != "undefined") {
-    // XDomainRequest for IE.
-    xhr = new XDomainRequest();
-    xhr.open(method, url);
-  } else {
-    // CORS not supported.
-    xhr = null;
-  }
-  return xhr;
-}
-
-// Make the actual CORS request.
-function makeCorsRequest() {
-  // This is a sample server that supports CORS.
-  var url = 'http://dmserv4.cs.illinois.edu:1111/remine';
-
-  var xhr = createCORSRequest('POST', url);
-  if (!xhr) {
-    alert('CORS not supported');
-    return;
-  }
-
-  // Response handlers.
-  xhr.onload = function() {
-    var text = xhr.responseText;
-    var title = getTitle(text);
-    alert('Response from CORS request to ' + url + ': ' + title);
-  };
-
-  xhr.onerror = function() {
-    alert('Woops, there was an error making the request.');
-  };
-
-  xhr.send();
-  console.log(xhr.responseText);
+    xhr.onload = function (e) {
+        if (xhr.readyState === 4) {
+            if (xhr.status === 200) {
+              let data = JSON.parse(xhr.responseText).tuple;
+              var list = document.createElement('ul');
+              for(var i = 0; i < data.length; i++) {
+                  var item = document.createElement('li');
+                  item.appendChild(document.createTextNode(data[i]));
+                  list.appendChild(item);
+              }
+              document.getElementById("outText").appendChild(list);
+              xhr.abort();
+            } else {
+              console.error(xhr.statusText);
+              xhr.abort();
+            }
+        }
+    };
 }

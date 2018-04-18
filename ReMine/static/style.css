@@ -29,8 +29,6 @@ html, body {
     left: 0;
     width: 50vw;
     height: 30vh;
-    line-height: 30vh;
-    text-align: center;
     border: 0.1px solid red;
     margin: 0;
 }
@@ -85,9 +83,5 @@ html, body {
     height: 90vh;
     border: 0.1px solid red;
     margin: 0;
-}
-
-.textOutput {
-    line-height: 90vh;
-    text-align: center;
+    overflow: auto;
 }
