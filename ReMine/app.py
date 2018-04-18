@@ -3,7 +3,7 @@ import subprocess
 from subprocess import Popen,PIPE
 #from gevent.wsgi import WSGIServer
 
-#from flask_cors import CORS, cross_origin
+from flask_cors import CORS, cross_origin
 app = Flask(__name__)
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
