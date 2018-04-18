@@ -1,8 +1,6 @@
 from flask import Flask,request,render_template,jsonify,Response
 import subprocess
 from subprocess import Popen,PIPE
-#import sys
-#sys.path.insert(0,'/gevent/gevent/')
 
 from gevent.wsgi import WSGIServer
 
@@ -20,7 +18,7 @@ def render():
 @app.route('/C')
 @cross_origin(origin='*')
 def runC():
-    subprocess.call(['make', '-C', '../c++'])
+    #subprocess.call(['make', '-C', '../c++'])
     process =Popen(['./../c++/q1'],stdout = PIPE,stderr = PIPE)
     stdout,stderr = process.communicate()
     return stdout
