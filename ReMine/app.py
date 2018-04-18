@@ -31,7 +31,7 @@ def runRemine():
         for line in f:
             ret.append(line)
     input = request.json
-    print(input.type)
+    #print(input.type)
     text = input['text']
     print(text)
     return jsonify({'tuple':ret})
