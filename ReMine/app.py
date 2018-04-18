@@ -1,23 +1,26 @@
 from flask import Flask,request,render_template,jsonify,Response
 import subprocess
 from subprocess import Popen,PIPE
-from flask.ext.cors import CORS, cross_origin
+#from flask_cors import CORS, cross_origin
 app = Flask(__name__)
-cors = CORS(app)
-app.config['CORS_HEADERS'] = 'Content-Type'
+#cors = CORS(app)
+#app.config['CORS_HEADERS'] = 'Content-Type'
 
 
 @app.route('/')
+#@cross_origin(origin='*')
 def render():
     return render_template('example.html')
 
 @app.route('/C')
+#@cross_origin(origin='*')
 def runC():
     subprocess.call(['make', '-C', '../c++'])
     process =Popen(['./../c++/q1'],stdout = PIPE,stderr = PIPE)
     stdout,stderr = process.communicate()
     return stdout
 @app.route('/remine', methods =['POST'])
+#@cross_origin(origin='*')
 def runRemine():
     #subprocess.call(['bash','remine-ie.sh'])
     ret = []
