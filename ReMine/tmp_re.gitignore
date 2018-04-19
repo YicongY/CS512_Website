@@ -3,3 +3,4 @@ tmp/
 tools/tokenizer_build/
 results_remine/
 bin/
+.idea/
