@@ -22,20 +22,41 @@ def runC():
     process =Popen(['./../c++/q1'],stdout = PIPE,stderr = PIPE)
     stdout,stderr = process.communicate()
     return stdout
+# @app.route('/remine', methods =['POST'])
+# @cross_origin(origin='*')
+# def runRemine():
+#     #subprocess.call(['bash','remine-ie.sh'])
+#     ret = []
+#     with open('results_remine/remine_result.txt','r') as f:
+#         for line in f:
+#             ret.append(line)
+#     input = request.data
+#     #text = input.get('text')
+#     print(input)
+#     return jsonify({'tuple':ret})
+
 @app.route('/remine', methods =['POST'])
 @cross_origin(origin='*')
 def runRemine():
     #subprocess.call(['bash','remine-ie.sh'])
     ret = []
-    with open('results_remine/remine_result.txt','r') as f:
+    input_path = 'tmp_remine/tokenized_test.txt'
+    pos_path = 'tmp_remine/pos_tags_test.txt'
+    dep_path = 'tmp_remine/deps_test.txt'
+    model_path = 'pre_train/segmentation.model'
+    subprocess.call(['./bin/remine',
+                     '--input_file', '{}'.format(input_path),
+                     '--pos_file', '{}'.format(pos_path),
+                     '--deps_file', '{}'.format(dep_path),
+                     '--model', '{}'.format(model_path),
+                     '--mode', '0'])
+    with open('tmp_remine/remine_tokenized_segmented_sentences.txt', 'r') as f:
         for line in f:
             ret.append(line)
     input = request.data
     #text = input.get('text')
-    print(input)
+    #print(input)
     return jsonify({'tuple':ret})
-
-
 
 if __name__=='__main__':
     #app.run(debug = True, host = '0.0.0.0',port=1111)
