@@ -52,7 +52,8 @@ def runRemine():
                      '--deps_file', '{}'.format(dep_path),
                      '--model', '{}'.format(model_path),
                      '--mode', '0'])
-    with open('tmp_remine/remine_tokenized_segmented_sentences.txt', 'r') as f:
+    output_path = 'remine_tokenized_segmented_sentences.txt'
+    with open('tmp_remine/{}'.format(output_path), 'r') as f:
         for line in f:
             ret.append(line)
     #input = request.data
