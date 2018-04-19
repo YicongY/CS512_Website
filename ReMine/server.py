@@ -1,10 +1,11 @@
-from flask import Flask,request,render_template,jsonify,Response
-import subprocess
-from subprocess import Popen,PIPE
+from flask import Flask, request, render_template, jsonify, Response
+
+from subprocess import Popen, PIPE
 
 from gevent.wsgi import WSGIServer
 
 from flask_cors import CORS, cross_origin
+
 app = Flask(__name__)
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
@@ -22,6 +23,7 @@ def runC():
     process =Popen(['./../c++/q1'],stdout = PIPE,stderr = PIPE)
     stdout,stderr = process.communicate()
     return stdout
+
 # @app.route('/remine', methods =['POST'])
 # @cross_origin(origin='*')
 # def runRemine():
@@ -53,13 +55,15 @@ def runRemine():
     with open('tmp_remine/remine_tokenized_segmented_sentences.txt', 'r') as f:
         for line in f:
             ret.append(line)
-    input = request.data
+    #input = request.data
     #text = input.get('text')
     #print(input)
     return jsonify({'tuple':ret})
 
 if __name__=='__main__':
     #app.run(debug = True, host = '0.0.0.0',port=1111)
+    # app.run(debug = True, host = 'localhost', port=5000)
+
     http_server = WSGIServer(('0.0.0.0', 1111), app)
     http_server.serve_forever()
-    #app.run(debug = True, host = 'localhost', port=5000)
+
