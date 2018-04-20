@@ -2,6 +2,7 @@ from flask import Flask, request, render_template, jsonify, Response
 
 import subprocess
 import sys
+import os
 from subprocess import Popen, PIPE
 
 from gevent.wsgi import WSGIServer
@@ -12,11 +13,12 @@ app = Flask(__name__)
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
-
+pid = 0
 @app.route('/')
 @cross_origin(origin='*')
 def render():
     Popen(['./bin/remine'])
+    pid = os.fork()
     return render_template('example.html')
 
 
@@ -67,6 +69,7 @@ def runRemine():
     #                  '--deps_file', '{}'.format(dep_path),
     #                  '--model', '{}'.format(model_path),
     #                  '--mode', '0'])
+    os.waitpid(pid)
     output_path = 'remine_tokenized_segmented_sentences.txt'
     with open('tmp_remine/{}'.format(output_path), 'r') as f:
         for line in f:
