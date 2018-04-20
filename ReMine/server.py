@@ -1,7 +1,6 @@
 from flask import Flask, request, render_template, jsonify, Response
 
 import subprocess
-from multiprocessing import Process
 import sys
 import os
 from subprocess import Popen, PIPE
@@ -10,19 +9,17 @@ from gevent.wsgi import WSGIServer
 
 from flask_cors import CORS, cross_origin
 
+import libtmux
+
 app = Flask(__name__)
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
-
-pid = 0
 
 
 @app.route('/')
 @cross_origin(origin='*')
 def render():
-    # Popen(['./bin/remine'])
-    # pid = os.fork()
-    # os.setsid()
+
     return render_template('example.html')
 
 
@@ -50,23 +47,17 @@ def render():
 @app.route('/remine', methods =['POST'])
 @cross_origin(origin='*')
 def runRemine():
-    #subprocess.call(['bash','remine-ie.sh'])
     default_input_model = 'pre_train/segmentation.model'
     #process = Popen(stdin=PIPE, stdout=PIPE, stderr=PIPE)
     input_path = 'tmp_remine/tokenized_test.txt'
     pos_path = 'tmp_remine/pos_tags_test.txt'
     dep_path = 'tmp_remine/deps_test.txt'
-    sys.stdin = b'\n{}\n{}\n{}\n'.format(input_path, pos_path, dep_path)
-    ret = []
+    ems_path = 'tmp_remine/remine_entity_position.txt'
 
-    model_path = default_input_model
-    mode = '1'
+    command = '{} {} {} {}'.formmat(input_path, pos_path, dep_path,ems_path)
 
+    session.send_keys(command, enter =True)
     #stdout,stderr = process.communicate(input = b' {}\n{}\n{}\n'.formmat(input_path, pos_path, dep_path))
-
-
-
-
     # subprocess.call(['./bin/remine',
     #                  '--input_file', '{}'.format(input_path),
     #                  '--pos_file', '{}'.format(pos_path),
@@ -87,7 +78,9 @@ def runRemine():
 if __name__=='__main__':
     #app.run(debug = True, host = '0.0.0.0',port=1111)
     # app.run(debug = True, host = 'localhost', port=5000)
-
+    server = libtmux.Server()
+    session = server.find_where({"session_name": "preload"})
+    session.send_keys('./bin/remine --model pre_train/segmentation.model --mode 1 ', enter=True)
     http_server = WSGIServer(('0.0.0.0', 1111), app)
 
     http_server.serve_forever()
