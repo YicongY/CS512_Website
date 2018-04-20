@@ -89,8 +89,8 @@ if __name__=='__main__':
     # app.run(debug = True, host = 'localhost', port=5000)
 
     http_server = WSGIServer(('0.0.0.0', 1111), app)
-    http_server.serve_forever()
-
     Popen(['./bin/remine'])
     pid = os.fork()
     os.setsid()
+    http_server.serve_forever()
+
