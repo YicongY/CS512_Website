@@ -88,9 +88,12 @@ inline bool byQuality(const Pattern& a, const Pattern& b)
 
 int main(int argc, char* argv[])
 {
-    parseReMineFlags(argc, argv);
+    //parseReMineFlags(argc, argv);
 
-    sscanf(argv[1], "%d", &NTHREADS);
+    MODE = 1;
+    SEGMENTATION_MODEL_REMINE = 'pre_train/segmentation.model';
+
+    sscanf(argv[1], "%d",MODE &NTHREADS);
     omp_set_num_threads(NTHREADS);
 
     Dump::loadSegmentationModel(SEGMENTATION_MODEL_REMINE);
@@ -104,6 +107,9 @@ int main(int argc, char* argv[])
 
     char currentDep[100];
     char currentTag[100];
+
+    std::cin.ignore(256,' ');
+    std::cin>>TEXT_TO_SEG_REMINE>>TEXT_TO_SEG_POS_TAGS_REMINE>>TEXT_TO_SEG_DEPS_REMINE
 
     FILE* in = tryOpen(TEXT_TO_SEG_REMINE, "r");
     FILE* posIn = tryOpen(TEXT_TO_SEG_POS_TAGS_REMINE, "r");
