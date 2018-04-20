@@ -64,12 +64,18 @@ def runRemine():
     #                  '--deps_file', '{}'.format(dep_path),
     #                  '--model', '{}'.format(model_path),
     #                  '--mode', '0'])
-    #os.waitpid(pid, 0)
 
     output_path = 'remine_tokenized_segmented_sentences.txt'
-    with open('tmp_remine/{}'.format(output_path), 'r') as f:
-        for line in f:
-            ret.append(line)
+    while True:
+        try:
+            with open('tmp_remine/{}'.format(output_path), 'r') as f:
+                for line in f:
+                    ret.append(line)
+            break
+        except IOError:
+            pass
+
+
     #input = request.data
     #text = input.get('text')
     #print(input)
