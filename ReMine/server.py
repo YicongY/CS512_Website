@@ -54,7 +54,7 @@ def runRemine():
     dep_path = 'tmp_remine/deps_test.txt'
     ems_path = 'tmp_remine/remine_entity_position.txt'
 
-    command = '{} {} {} {}'.formmat(input_path, pos_path, dep_path,ems_path)
+    command = '{} {} {} {}'.format(input_path, pos_path, dep_path,ems_path)
 
     pane.send_keys(command, enter =True)
     #stdout,stderr = process.communicate(input = b' {}\n{}\n{}\n'.formmat(input_path, pos_path, dep_path))
