@@ -15,7 +15,7 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 @app.route('/')
 @cross_origin(origin='*')
 def render():
-    subprocess.call(['./bin/remine'])
+    Popen(['./bin/remine'])
     return render_template('example.html')
 
 
@@ -45,7 +45,7 @@ def render():
 def runRemine():
     #subprocess.call(['bash','remine-ie.sh'])
     default_input_model = 'pre_train/segmentation.model'
-    process = Popen( stdin=PIPE, stdout=PIPE, stderr=PIPE)
+    process = Popen(stdin=PIPE, stdout=PIPE, stderr=PIPE)
     ret = []
     input_path = 'tmp_remine/tokenized_test.txt'
     pos_path = 'tmp_remine/pos_tags_test.txt'
