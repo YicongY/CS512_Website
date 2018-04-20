@@ -107,7 +107,8 @@ int main(int argc, char* argv[])
 
     char currentDep[100];
     char currentTag[100];
-
+    std::cout<<'AFTER'
+    
     std::cin.ignore(256,' ');
     std::cin>>TEXT_TO_SEG_REMINE>>TEXT_TO_SEG_POS_TAGS_REMINE>>TEXT_TO_SEG_DEPS_REMINE
 
