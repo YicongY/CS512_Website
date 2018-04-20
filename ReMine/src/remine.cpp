@@ -86,7 +86,7 @@ inline bool byQuality(const Pattern& a, const Pattern& b)
     return a.quality > b.quality + EPS || fabs(a.quality - b.quality) < EPS && a.currentFreq > b.currentFreq;
 }
 
-int main(int argc, char* argv[])
+int main()
 {
     //parseReMineFlags(argc, argv);
 
