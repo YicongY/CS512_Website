@@ -17,12 +17,6 @@ cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
 
-@app.route('/')
-@cross_origin(origin='*')
-def render():
-
-    return render_template('example.html')
-
 
 # @app.route('/C')
 # @cross_origin(origin='*')
@@ -36,20 +30,29 @@ def render():
 # @cross_origin(origin='*')
 # def runRemine():
 #     #subprocess.call(['bash','remine-ie.sh'])
-#     ret = []
-#     with open('results_remine/remine_result.txt','r') as f:
-#         for line in f:
-#             ret.append(line)
-#     input = request.data
-#     #text = input.get('text')
-#     print(input)
-#     return jsonify({'tuple':ret})
+# stdout,stderr = process.communicate(input = b' {}\n{}\n{}\n'.formmat(input_path, pos_path, dep_path))
+# subprocess.call(['./bin/remine',
+#                  '--input_file', '{}'.format(input_path),
+#                  '--pos_file', '{}'.format(pos_path),
+#                  '--deps_file', '{}'.format(dep_path),
+#                  '--model', '{}'.format(model_path),
+#                  '--mode', '0'])
+
+
+@app.route('/')
+@cross_origin(origin='*')
+def render():
+    return render_template('example.html')
+
 
 @app.route('/remine', methods =['POST'])
 @cross_origin(origin='*')
 def runRemine():
     default_input_model = 'pre_train/segmentation.model'
     #process = Popen(stdin=PIPE, stdout=PIPE, stderr=PIPE)
+    # input = request.data
+    # text = input.get('text')
+    # print(input)
     input_path = 'tmp_remine/tokenized_test.txt'
     pos_path = 'tmp_remine/pos_tags_test.txt'
     dep_path = 'tmp_remine/deps_test.txt'
@@ -58,13 +61,6 @@ def runRemine():
     command = '{} {} {} {}'.format(input_path, pos_path, dep_path,ems_path)
     ret = []
     pane.send_keys(command, enter =True)
-    #stdout,stderr = process.communicate(input = b' {}\n{}\n{}\n'.formmat(input_path, pos_path, dep_path))
-    # subprocess.call(['./bin/remine',
-    #                  '--input_file', '{}'.format(input_path),
-    #                  '--pos_file', '{}'.format(pos_path),
-    #                  '--deps_file', '{}'.format(dep_path),
-    #                  '--model', '{}'.format(model_path),
-    #                  '--mode', '0'])
 
     output_path = 'remine_tokenized_segmented_sentences.txt'
     while True:
@@ -76,29 +72,24 @@ def runRemine():
                 break
             except IOError:
                 break
-
-
-    #input = request.data
-    #text = input.get('text')
-    #print(input)
+    #clear the output
     os.remove('tmp_remine/finish.txt')
     os.remove('tmp_remine/remine_tokenized_segmented_sentences.txt')
-    
+    #prepare for next remine ,load the model againff
     pane.send_keys('./bin/remine --model pre_train/segmentation.model --mode 1', enter=True)
-    return jsonify({'tuple':ret})
+    return jsonify({'tuple': ret})
 
 if __name__=='__main__':
     #app.run(debug = True, host = '0.0.0.0',port=1111)
     # app.run(debug = True, host = 'localhost', port=5000)
-    server = libtmux.Server()
 
+    #create the tmux server to preload the model
+    server = libtmux.Server()
     session = server.find_where({"session_name": "preload"})
     window = session.new_window(attach=False, window_name="remine")
-
     pane = window.split_window(attach=False)
     pane.send_keys('./bin/remine --model pre_train/segmentation.model --mode 1', enter=True)
 
-    #session.send_keys('', enter=True)
     http_server = WSGIServer(('0.0.0.0', 1111), app)
 
     http_server.serve_forever()
