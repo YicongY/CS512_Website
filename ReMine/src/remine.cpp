@@ -113,12 +113,13 @@ int main()
     std::cout<<"READ\n";
     std::cin>>TEXT_TO_SEG_REMINE;
     std::cout<<TEXT_TO_SEG_REMINE;
-    std::cout<<"READ1\n";
+    //std::cout<<"READ1\n";
     std::cin>>TEXT_TO_SEG_POS_TAGS_REMINE;
-    std::cout<<TEXT_TO_SEG_POS_TAGS_REMINE;
+    //std::cout<<TEXT_TO_SEG_POS_TAGS_REMINE;
     std::cout<<"READ2\n";
     std::cin>>TEXT_TO_SEG_DEPS_REMINE;
-    std::cout<<TEXT_TO_SEG_DEPS_REMINE;
+    //std::cout<<TEXT_TO_SEG_DEPS_REMINE;
+    std::cin>>TEXT_TO_SEG_DEPS_REMINE;
     std::cout<<"READ3\n";
 
     FILE* in = tryOpen(TEXT_TO_SEG_REMINE, "r");
