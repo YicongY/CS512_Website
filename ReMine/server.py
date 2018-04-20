@@ -73,6 +73,7 @@ def runRemine():
     #input = request.data
     #text = input.get('text')
     #print(input)
+    window.kill_window()
     return jsonify({'tuple':ret})
 
 if __name__=='__main__':
