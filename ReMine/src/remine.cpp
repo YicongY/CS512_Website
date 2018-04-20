@@ -107,7 +107,7 @@ int main()
 
     char currentDep[100];
     char currentTag[100];
-    std::cout<<"AFTER";
+    std::cout<<"READY\n";
 
     std::cin.ignore(256,' ');
     std::cin>>TEXT_TO_SEG_REMINE>>TEXT_TO_SEG_POS_TAGS_REMINE>>TEXT_TO_SEG_DEPS_REMINE;
@@ -116,7 +116,7 @@ int main()
     FILE* posIn = tryOpen(TEXT_TO_SEG_POS_TAGS_REMINE, "r");
     FILE* depIn = tryOpen(TEXT_TO_SEG_DEPS_REMINE, "r");
     FILE* emIn = NULL;
-    std::cout<<"AFTER123";
+    std::cout<<"BEGIN\n";
     if (MODE == 1) {
         emIn = tryOpen(TEST_EMS_REMINE, "r");
     }
