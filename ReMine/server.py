@@ -50,7 +50,7 @@ def runRemine():
     input_path = 'tmp_remine/tokenized_test.txt'
     pos_path = 'tmp_remine/pos_tags_test.txt'
     dep_path = 'tmp_remine/deps_test.txt'
-    sys.stdin = b' {}\n{}\n{}\n'.formmat(input_path, pos_path, dep_path)
+    sys.stdin = b' {}\n{}\n{}\n'.format(input_path, pos_path, dep_path)
     ret = []
 
     model_path = default_input_model
