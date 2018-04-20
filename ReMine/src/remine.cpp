@@ -86,12 +86,11 @@ inline bool byQuality(const Pattern& a, const Pattern& b)
     return a.quality > b.quality + EPS || fabs(a.quality - b.quality) < EPS && a.currentFreq > b.currentFreq;
 }
 
-int main()
+int main(int argc, char *argv[])
 {
-    //parseReMineFlags(argc, argv);
+    parseReMineFlags(argc, argv);
 
-    MODE = 1;
-    std::string SEGMENTATION_MODEL_REMINE = "pre_train/segmentation.model";
+
 
     //sscanf(argv[1], "%d",MODE &NTHREADS);
     omp_set_num_threads(NTHREADS);
@@ -109,7 +108,7 @@ int main()
     char currentTag[100];
     std::cout<<"READY\n";
 
-    std::cin.ignore(1,' ');
+    //std::cin.ignore(1,' ');
     std::cout<<"READ\n";
     std::cin>>TEXT_TO_SEG_REMINE;
     std::cout<<TEXT_TO_SEG_REMINE;
