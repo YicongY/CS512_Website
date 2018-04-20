@@ -81,16 +81,19 @@ def runRemine():
     #input = request.data
     #text = input.get('text')
     #print(input)
+    window.close_window()
     return jsonify({'tuple':ret})
 
 if __name__=='__main__':
     #app.run(debug = True, host = '0.0.0.0',port=1111)
     # app.run(debug = True, host = 'localhost', port=5000)
     server = libtmux.Server()
+
     session = server.find_where({"session_name": "preload"})
-    window = session.new_window(attach=False, window_name="test")
+    window = session.new_window(attach=False, window_name="remine")
+
     pane = window.split_window(attach=False)
-    pane.send_keys('./bin/remine --model pre_train/segmentation.model --mode 1', enter=False)
+    pane.send_keys('./bin/remine --model pre_train/segmentation.model --mode 1', enter=True)
 
     #session.send_keys('', enter=True)
     http_server = WSGIServer(('0.0.0.0', 1111), app)
