@@ -16,14 +16,15 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 @cross_origin(origin='*')
 def render():
     return render_template('example.html')
+    subprocess.call(['./bin/remine'])
 
-@app.route('/C')
-@cross_origin(origin='*')
-def runC():
-    #subprocess.call(['make', '-C', '../c++'])
-    process =Popen(['./../c++/q1'],stdout = PIPE,stderr = PIPE)
-    stdout,stderr = process.communicate()
-    return stdout
+# @app.route('/C')
+# @cross_origin(origin='*')
+# def runC():
+#     #subprocess.call(['make', '-C', '../c++'])
+#     process =Popen(['./../c++/q1'],stdout = PIPE,stderr = PIPE)
+#     stdout,stderr = process.communicate()
+#     return stdout
 
 # @app.route('/remine', methods =['POST'])
 # @cross_origin(origin='*')
@@ -42,17 +43,26 @@ def runC():
 @cross_origin(origin='*')
 def runRemine():
     #subprocess.call(['bash','remine-ie.sh'])
+    default_input_model = 'pre_train/segmentation.model'
+    process = Popen([' '], stdin=PIPE, stdout=PIPE, stderr=PIPE)
     ret = []
     input_path = 'tmp_remine/tokenized_test.txt'
     pos_path = 'tmp_remine/pos_tags_test.txt'
     dep_path = 'tmp_remine/deps_test.txt'
-    model_path = 'pre_train/segmentation.model'
-    subprocess.call(['./bin/remine',
-                     '--input_file', '{}'.format(input_path),
-                     '--pos_file', '{}'.format(pos_path),
-                     '--deps_file', '{}'.format(dep_path),
-                     '--model', '{}'.format(model_path),
-                     '--mode', '0'])
+    model_path = default_input_model
+    mode = '1'
+
+    stdout,stderr = process.communicate(input = b'{}\n{}\n{}\n'.formmat(input_path, pos_path, dep_path))
+
+
+
+
+    # subprocess.call(['./bin/remine',
+    #                  '--input_file', '{}'.format(input_path),
+    #                  '--pos_file', '{}'.format(pos_path),
+    #                  '--deps_file', '{}'.format(dep_path),
+    #                  '--model', '{}'.format(model_path),
+    #                  '--mode', '0'])
     output_path = 'remine_tokenized_segmented_sentences.txt'
     with open('tmp_remine/{}'.format(output_path), 'r') as f:
         for line in f:
