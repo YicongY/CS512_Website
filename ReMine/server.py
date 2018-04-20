@@ -1,6 +1,7 @@
 from flask import Flask, request, render_template, jsonify, Response
 
 import subprocess
+from multiprocessing import Process
 import sys
 import os
 from subprocess import Popen, PIPE
@@ -14,12 +15,14 @@ cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
 pid = 0
+
+
 @app.route('/')
 @cross_origin(origin='*')
 def render():
-    Popen(['./bin/remine'])
-    pid = os.fork()
-    os.setsid()
+    # Popen(['./bin/remine'])
+    # pid = os.fork()
+    # os.setsid()
     return render_template('example.html')
 
 
@@ -70,7 +73,7 @@ def runRemine():
     #                  '--deps_file', '{}'.format(dep_path),
     #                  '--model', '{}'.format(model_path),
     #                  '--mode', '0'])
-    os.waitpid(pid)
+    os.waitpid(pid, 0)
 
     output_path = 'remine_tokenized_segmented_sentences.txt'
     with open('tmp_remine/{}'.format(output_path), 'r') as f:
@@ -88,3 +91,6 @@ if __name__=='__main__':
     http_server = WSGIServer(('0.0.0.0', 1111), app)
     http_server.serve_forever()
 
+    Popen(['./bin/remine'])
+    pid = os.fork()
+    os.setsid()
