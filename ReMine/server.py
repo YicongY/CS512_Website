@@ -73,7 +73,7 @@ def runRemine():
     #                  '--deps_file', '{}'.format(dep_path),
     #                  '--model', '{}'.format(model_path),
     #                  '--mode', '0'])
-    os.waitpid(pid, 0)
+    #os.waitpid(pid, 0)
 
     output_path = 'remine_tokenized_segmented_sentences.txt'
     with open('tmp_remine/{}'.format(output_path), 'r') as f:
@@ -89,8 +89,6 @@ if __name__=='__main__':
     # app.run(debug = True, host = 'localhost', port=5000)
 
     http_server = WSGIServer(('0.0.0.0', 1111), app)
-    Popen(['./bin/remine'])
-    pid = os.fork()
-    os.setsid()
+
     http_server.serve_forever()
 
