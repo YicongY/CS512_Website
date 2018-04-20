@@ -1,6 +1,7 @@
 from flask import Flask, request, render_template, jsonify, Response
 
 import subprocess
+import sys
 from subprocess import Popen, PIPE
 
 from gevent.wsgi import WSGIServer
@@ -45,15 +46,17 @@ def render():
 def runRemine():
     #subprocess.call(['bash','remine-ie.sh'])
     default_input_model = 'pre_train/segmentation.model'
-    process = Popen(stdin=PIPE, stdout=PIPE, stderr=PIPE)
-    ret = []
+    #process = Popen(stdin=PIPE, stdout=PIPE, stderr=PIPE)
     input_path = 'tmp_remine/tokenized_test.txt'
     pos_path = 'tmp_remine/pos_tags_test.txt'
     dep_path = 'tmp_remine/deps_test.txt'
+    sys.stdin = b' {}\n{}\n{}\n'.formmat(input_path, pos_path, dep_path)
+    ret = []
+
     model_path = default_input_model
     mode = '1'
 
-    stdout,stderr = process.communicate(input = b' {}\n{}\n{}\n'.formmat(input_path, pos_path, dep_path))
+    #stdout,stderr = process.communicate(input = b' {}\n{}\n{}\n'.formmat(input_path, pos_path, dep_path))
 
 
 
