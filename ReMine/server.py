@@ -17,7 +17,7 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 def render():
     return render_template('example.html')
     subprocess.call(['./bin/remine'])
-
+    print('///////')
 # @app.route('/C')
 # @cross_origin(origin='*')
 # def runC():
