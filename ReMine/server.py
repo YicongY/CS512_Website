@@ -81,7 +81,7 @@ def runRemine():
     #input = request.data
     #text = input.get('text')
     #print(input)
-    window.close_window()
+    pane.send_keys('./bin/remine --model pre_train/segmentation.model --mode 1', enter=True)
     return jsonify({'tuple':ret})
 
 if __name__=='__main__':
