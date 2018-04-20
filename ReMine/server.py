@@ -4,6 +4,7 @@ import subprocess
 import sys
 import os
 from subprocess import Popen, PIPE
+import os.path
 
 from gevent.wsgi import WSGIServer
 
@@ -67,19 +68,19 @@ def runRemine():
 
     output_path = 'remine_tokenized_segmented_sentences.txt'
     while True:
-        try:
-            with open('tmp_remine/{}'.format(output_path), 'r') as f:
-                for line in f:
-                    ret.append(line)
-            break
-        except IOError:
-            pass
+        if os.path.isfile('tmp_remine/{}'.format(output_path)):
+            try:
+                with open('tmp_remine/{}'.format(output_path), 'r') as f:
+                    for line in f:
+                        ret.append(line)
+                break
+            except IOError:
+                break
 
 
     #input = request.data
     #text = input.get('text')
     #print(input)
-    window.kill_window()
     return jsonify({'tuple':ret})
 
 if __name__=='__main__':
