@@ -109,7 +109,7 @@ int main()
     char currentTag[100];
     std::cout<<"READY\n";
 
-    std::cin.ignore(256,' ');
+    std::cin.ignore(1,' ');
     std::cin>>TEXT_TO_SEG_REMINE>>TEXT_TO_SEG_POS_TAGS_REMINE>>TEXT_TO_SEG_DEPS_REMINE;
 
     FILE* in = tryOpen(TEXT_TO_SEG_REMINE, "r");
