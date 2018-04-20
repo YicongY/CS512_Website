@@ -109,19 +109,15 @@ int main(int argc, char *argv[])
     std::cout<<"READY\n";
 
     //std::cin.ignore(1,' ');
-    std::cout<<"READ\n";
     std::cin>>TEXT_TO_SEG_REMINE;
-    std::cout<<TEXT_TO_SEG_REMINE;
-    std::cout<<"READ1\n";
+    //std::cout<<TEXT_TO_SEG_REMINE;
     std::cin>>TEXT_TO_SEG_POS_TAGS_REMINE;
-    std::cout<<TEXT_TO_SEG_POS_TAGS_REMINE;
-    std::cout<<"READ2\n";
+    //std::cout<<TEXT_TO_SEG_POS_TAGS_REMINE;
     std::cin>>TEXT_TO_SEG_DEPS_REMINE;
-    std::cout<<TEXT_TO_SEG_DEPS_REMINE;
-    std::cout<<"READ3\n";
+    //std::cout<<TEXT_TO_SEG_DEPS_REMINE;
     std::cin>>TEST_EMS_REMINE;
-    std::cout<<TEST_EMS_REMINE;
-    std::cout<<"READ4\n";
+    //std::cout<<TEST_EMS_REMINE;
+
 
     FILE* in = tryOpen(TEXT_TO_SEG_REMINE, "r");
     FILE* posIn = tryOpen(TEXT_TO_SEG_POS_TAGS_REMINE, "r");
