@@ -44,7 +44,7 @@ def render():
 def runRemine():
     #subprocess.call(['bash','remine-ie.sh'])
     default_input_model = 'pre_train/segmentation.model'
-    process = Popen([' '], stdin=PIPE, stdout=PIPE, stderr=PIPE)
+    process = Popen([], stdin=PIPE, stdout=PIPE, stderr=PIPE)
     ret = []
     input_path = 'tmp_remine/tokenized_test.txt'
     pos_path = 'tmp_remine/pos_tags_test.txt'
@@ -52,7 +52,7 @@ def runRemine():
     model_path = default_input_model
     mode = '1'
 
-    stdout,stderr = process.communicate(input = b'{}\n{}\n{}\n'.formmat(input_path, pos_path, dep_path))
+    stdout,stderr = process.communicate(input = b' {}\n{}\n{}\n'.formmat(input_path, pos_path, dep_path))
 
 
 
