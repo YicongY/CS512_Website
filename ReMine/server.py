@@ -68,7 +68,7 @@ def runRemine():
 
     output_path = 'remine_tokenized_segmented_sentences.txt'
     while True:
-        if os.path.isfile('tmp_remine/{}'.format(output_path)):
+        if os.path.isfile('tmp_remine/finish.txt'.format(output_path)):
             try:
                 with open('tmp_remine/{}'.format(output_path), 'r') as f:
                     for line in f:
@@ -81,6 +81,9 @@ def runRemine():
     #input = request.data
     #text = input.get('text')
     #print(input)
+    os.remove('tmp_remine/finish.txt')
+    os.remove('tmp_remine/remine_tokenized_segmented_sentences.txt')
+    
     pane.send_keys('./bin/remine --model pre_train/segmentation.model --mode 1', enter=True)
     return jsonify({'tuple':ret})
 
