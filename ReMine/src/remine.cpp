@@ -122,6 +122,7 @@ int main()
     std::cout<<"READ3\n";
     std::cin>>TEST_EMS_REMINE;
     std::cout<<TEST_EMS_REMINE;
+    std::cout<<"READ4\n";
 
     FILE* in = tryOpen(TEXT_TO_SEG_REMINE, "r");
     FILE* posIn = tryOpen(TEXT_TO_SEG_POS_TAGS_REMINE, "r");
