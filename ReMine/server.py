@@ -56,7 +56,7 @@ def runRemine():
 
     command = '{} {} {} {}'.formmat(input_path, pos_path, dep_path,ems_path)
 
-    session.send_keys(command, enter =True)
+    pane.send_keys(command, enter =True)
     #stdout,stderr = process.communicate(input = b' {}\n{}\n{}\n'.formmat(input_path, pos_path, dep_path))
     # subprocess.call(['./bin/remine',
     #                  '--input_file', '{}'.format(input_path),
@@ -80,6 +80,10 @@ if __name__=='__main__':
     # app.run(debug = True, host = 'localhost', port=5000)
     server = libtmux.Server()
     session = server.find_where({"session_name": "preload"})
+    window = session.new_window(attach=False, window_name="test")
+    pane = window.split_window(attach=False)
+    pane.send_keys('echo hey', enter=False)
+
     session.send_keys('./bin/remine --model pre_train/segmentation.model --mode 1 ', enter=True)
     http_server = WSGIServer(('0.0.0.0', 1111), app)
 
