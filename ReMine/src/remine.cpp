@@ -134,6 +134,7 @@ int main(int argc, char *argv[])
 
     FILE* out = tryOpen("tmp_remine/remine_tokenized_segmented_sentences.txt", "w");
 
+
     int docCount = 0;
     while (getLine(in)) {
         stringstream sin(line);
@@ -228,6 +229,7 @@ int main(int argc, char *argv[])
         // break;
     fclose(in);
     fclose(out);
-
+    FILE* FIN_IND = tryOpen("tmp_remine/finish.txt","w");
+    fclose(FIN_IND);
     return 0;
 }
