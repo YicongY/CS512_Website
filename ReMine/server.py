@@ -18,7 +18,7 @@ pid = 0
 @cross_origin(origin='*')
 def render():
     Popen(['./bin/remine'])
-    pid = os.fork()
+    #pid = os.fork()
     return render_template('example.html')
 
 
@@ -69,7 +69,8 @@ def runRemine():
     #                  '--deps_file', '{}'.format(dep_path),
     #                  '--model', '{}'.format(model_path),
     #                  '--mode', '0'])
-    os.waitpid(pid)
+    #os.waitpid(pid)
+
     output_path = 'remine_tokenized_segmented_sentences.txt'
     with open('tmp_remine/{}'.format(output_path), 'r') as f:
         for line in f:
