@@ -116,7 +116,7 @@ int main()
     FILE* posIn = tryOpen(TEXT_TO_SEG_POS_TAGS_REMINE, "r");
     FILE* depIn = tryOpen(TEXT_TO_SEG_DEPS_REMINE, "r");
     FILE* emIn = NULL;
-
+    std::cout<<"AFTER123";
     if (MODE == 1) {
         emIn = tryOpen(TEST_EMS_REMINE, "r");
     }
