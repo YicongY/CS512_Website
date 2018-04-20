@@ -110,6 +110,7 @@ int main()
     std::cout<<"READY\n";
 
     std::cin.ignore(1,' ');
+    std::cout<<"READ\n";
     std::cin>>TEXT_TO_SEG_REMINE>>TEXT_TO_SEG_POS_TAGS_REMINE>>TEXT_TO_SEG_DEPS_REMINE;
 
     FILE* in = tryOpen(TEXT_TO_SEG_REMINE, "r");
