@@ -5,9 +5,9 @@ pick = random.sample(range(0, lines), 100000)
 with open('../../../qiz3/data/bio_pubtator/bio_pubtator.tokens.txt') as fp:
     line = fp.readline()
     index = 0
-    if index % 1000 == 0:
-        print(index)
     while line:
+        if index % 1000 == 0:
+            print(index)
         if index in pick:
             output.append(line.strip())
         line = fp.readline()
