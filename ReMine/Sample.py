@@ -1,10 +1,12 @@
 output = []
 lines = sum(1 for line in open('../../../qiz3/data/bio_pubtator/bio_pubtator.tokens.txt'))
 import random
-pick = random.sample(range(0, lines), 3)
+pick = random.sample(range(0, lines), 100000)
 with open('../../../qiz3/data/bio_pubtator/bio_pubtator.tokens.txt') as fp:
     line = fp.readline()
     index = 0
+    if index % 1000 == 0:
+        print(index)
     while line:
         if index in pick:
             output.append(line.strip())
@@ -12,7 +14,7 @@ with open('../../../qiz3/data/bio_pubtator/bio_pubtator.tokens.txt') as fp:
         index += 1
 output = '\n'.join(output)
 
-text_file = open("Sample.txt", "w")
+text_file = open("tmp/Sample.txt", "w")
 text_file.write(output)
 text_file.close()
 
