@@ -1,5 +1,5 @@
 output = []
-lines = sum(1 for line in open('../qiz3/data/bio_pubtator/bio_pubtator.tokens.txt'))
+lines = sum(1 for line in open('../../../qiz3/data/bio_pubtator/bio_pubtator.tokens.txt'))
 import random
 pick = random.sample(range(0, lines), 3)
 with open("test.txt") as fp:
