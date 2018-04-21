@@ -2,7 +2,7 @@ output = []
 out_str = []
 lines = sum(1 for line in open('../../../qiz3/data/bio_pubtator/bio_pubtator.tokens.txt'))
 import random
-pick = random.sample(range(0, lines), 3)
+pick = random.sample(range(0, lines), 100000)
 with open('../../../qiz3/data/bio_pubtator/bio_pubtator.tokens.txt') as fp:
     out_str = fp.read().split('\n')
 for i in pick:
