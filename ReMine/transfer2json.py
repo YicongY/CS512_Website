@@ -6,8 +6,8 @@ Created on Sat Apr 21 22:59:41 2018
 """
 
 import json
-pos = "tmp/Sample_bio_pubtator.pos.txt"
-tokens = "tmp/Sample_bio_pubtator_index.txt"
+pos = "tmp/Sample_wiki.pos.txt"
+tokens = "tmp/Sample_wiki_index.txt"
 pos_lines = open(pos,'r',encoding = 'UTF-8').readlines()
 pos_list = [line.split() for line in pos_lines]
 tokens_lines = open(tokens,'r',encoding ='UTF-8').readlines()
