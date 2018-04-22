@@ -1,7 +1,7 @@
 import random
 pick = random.sample(range(0, 3000000), 100000)
 text_file = open("tmp/Sample_bio_pubtator.index.txt", "w")
-text_file.write(pick)
+text_file.write('\n'.join(pick))
 text_file.close()
 
 output = []
@@ -40,7 +40,7 @@ text_file.close()
 import random
 pick = random.sample(range(0, 300000), 100000)
 text_file = open("tmp/Sample_wiki.index.txt", "w")
-text_file.write(pick)
+text_file.write('\n'.join(pick))
 text_file.close()
 
 output = []
