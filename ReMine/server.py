@@ -44,6 +44,8 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 def render():
     return render_template('example.html')
 
+#todo generate an api to set model.
+
 
 @app.route('/remine', methods =['POST'])
 @cross_origin(origin='*')
@@ -84,6 +86,7 @@ if __name__=='__main__':
     # app.run(debug = True, host = 'localhost', port=5000)
 
     #create the tmux server to preload the model
+    #TODO preload different models with different windows, ready for any model
     server = libtmux.Server()
     session = server.find_where({"session_name": "preload"})
     window = session.new_window(attach=False, window_name="remine")
