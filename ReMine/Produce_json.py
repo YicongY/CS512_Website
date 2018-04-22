@@ -1,7 +1,7 @@
 import sys
 
 sys.path.insert(0,"/shared/data/remine/CS512_Website/ReMine/src_py")
-from src_py import utils
+import utils
 
 
 if __name__ == '__main__':
