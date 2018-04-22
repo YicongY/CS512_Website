@@ -25,7 +25,7 @@ text_file.close()
 
 
 import random
-pick = random.sample(range(0, 3000000), 100000)
+pick = random.sample(range(0, 300000), 100000)
 
 output = []
 out_str = []
