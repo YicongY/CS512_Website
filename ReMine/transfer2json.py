@@ -19,7 +19,7 @@ result=[]
 for index in range(len(pos_list)):
     result.append({'pos':pos_list[index],'tokens':tokens_list[index]})
     
-file =  open("bio_pubtator.json","w",encoding ='UTF-8')
+file =  open("wiki.json","w",encoding ='UTF-8')
 for index in result:
     file.write(json.dumps(index)+'\n')
 file.close()   
