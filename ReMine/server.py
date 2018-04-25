@@ -78,7 +78,7 @@ def runRemine():
     os.remove('tmp_remine/finish.txt')
     os.remove('tmp_remine/remine_tokenized_segmented_sentences.txt')
     #prepare for next remine ,load the model againff
-    pane.send_keys('./bin/remine --model pre_train/segmentation.model --mode 1', enter=True)
+    #pane.send_keys('./bin/remine --model pre_train/segmentation.model --mode 1', enter=True)
     return jsonify({'tuple': ret})
 
 if __name__=='__main__':
