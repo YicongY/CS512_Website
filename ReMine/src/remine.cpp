@@ -86,13 +86,11 @@ inline bool byQuality(const Pattern& a, const Pattern& b)
     return a.quality > b.quality + EPS || fabs(a.quality - b.quality) < EPS && a.currentFreq > b.currentFreq;
 }
 
-int main(int argc, char *argv[])
+int main(int argc, char* argv[])
 {
     parseReMineFlags(argc, argv);
 
-
-
-    //sscanf(argv[1], "%d",MODE &NTHREADS);
+    sscanf(argv[1], "%d", &NTHREADS);
     omp_set_num_threads(NTHREADS);
 
     Dump::loadSegmentationModel(SEGMENTATION_MODEL_REMINE);
@@ -106,30 +104,17 @@ int main(int argc, char *argv[])
 
     char currentDep[100];
     char currentTag[100];
-    std::cout<<"READY\n";
-
-    //std::cin.ignore(1,' ');
-    std::cin>>TEXT_TO_SEG_REMINE;
-    //std::cout<<TEXT_TO_SEG_REMINE;
-    std::cin>>TEXT_TO_SEG_POS_TAGS_REMINE;
-    //std::cout<<TEXT_TO_SEG_POS_TAGS_REMINE;
-    std::cin>>TEXT_TO_SEG_DEPS_REMINE;
-    //std::cout<<TEXT_TO_SEG_DEPS_REMINE;
-    std::cin>>TEST_EMS_REMINE;
-    //std::cout<<TEST_EMS_REMINE;
-
 
     FILE* in = tryOpen(TEXT_TO_SEG_REMINE, "r");
     FILE* posIn = tryOpen(TEXT_TO_SEG_POS_TAGS_REMINE, "r");
     FILE* depIn = tryOpen(TEXT_TO_SEG_DEPS_REMINE, "r");
     FILE* emIn = NULL;
-    std::cout<<"BEGIN\n";
+
     if (MODE == 1) {
         emIn = tryOpen(TEST_EMS_REMINE, "r");
     }
 
     FILE* out = tryOpen("tmp_remine/remine_tokenized_segmented_sentences.txt", "w");
-
 
     int docCount = 0;
     while (getLine(in)) {
@@ -225,7 +210,6 @@ int main(int argc, char *argv[])
         // break;
     fclose(in);
     fclose(out);
-    FILE* FIN_IND = tryOpen("tmp_remine/finish.txt","w");
-    fclose(FIN_IND);
+
     return 0;
 }
