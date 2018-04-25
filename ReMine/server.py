@@ -91,6 +91,7 @@ if __name__=='__main__':
     session = server.find_where({"session_name": "preload"})
     window = session.new_window(attach=False, window_name="remine")
     pane = window.split_window(attach=False)
+    pane.send_keys('cd /shared/data/remine/CS512_Website/', enter = True)
     pane.send_keys('./bin/remine --model pre_train/segmentation.model --mode 1', enter=True)
 
     http_server = WSGIServer(('0.0.0.0', 1111), app)
