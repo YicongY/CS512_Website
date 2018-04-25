@@ -66,7 +66,7 @@ def runRemine():
 
     output_path = 'remine_tokenized_segmented_sentences.txt'
     while True:
-        if os.path.isfile('tmp_remine/finish.txt'.format(output_path)):
+        if os.path.isfile('tmp_remine/finish.txt'):
             try:
                 with open('tmp_remine/{}'.format(output_path), 'r') as f:
                     for line in f:
