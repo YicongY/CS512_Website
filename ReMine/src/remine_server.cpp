@@ -106,10 +106,11 @@ int main(int argc, char *argv[])
 
     char currentDep[100];
     char currentTag[100];
-    std::cout<<"READY\n";
+
 
     while(1){
      //std::cin.ignore(1,' ');
+        std::cout<<"READY\n";
         std::cin>>TEXT_TO_SEG_REMINE;
         //std::cout<<TEXT_TO_SEG_REMINE;
         std::cin>>TEXT_TO_SEG_POS_TAGS_REMINE;
