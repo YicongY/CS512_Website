@@ -1,0 +1,1285 @@
+1	three man | have die , | medical error
+1	three man | have die , in , | the previous month
+1	Gov. Tim Pawlenty of Minnesota | order , | the state health department
+1	Gov. Tim Pawlenty of Minnesota | order , | this month
+1	Gov. Tim Pawlenty of Minnesota | order , | day-to-day operation
+1	Gov. Tim Pawlenty of Minnesota | order , at , | Minneapolis Veterans Home
+2	wounded people | have , be , admit , and , | Conakry
+2	wounded people | have , be , admit , and , in , | the capital of Guinea
+2	wounded people | have , be , admit , and , at , | Donka Hospital
+4	Westchester | watch , by , of , of , wait , | a water pump
+4	Westchester | watch , by , of , of , wait , for , | power
+4	Westchester | of , | Mamaroneck
+4	a tough day | of , watch , pour into , | home on the
+4	Westchester | watch , by , of , | road
+4	a tough day | of , watch , | floodwater
+4	Westchester | watch , | a refrigerator float
+4	a tough day | of , | coping
+4	Westchester | of , tow , | a car
+4	Westchester | of , sleep , in , | a shelter
+4	Westchester | of , sleep , | a airport
+4	Westchester | watch , by , of , | erratic train
+5	Damascus | in , | the palestinian territory
+5	the government | support , for , | radical organization
+5	the United States | maintain , with , | Syria
+6	Age 93 | at , | home
+7	one of the company | sue , | the government
+7	the general counsel | at , | Columbia Sportswear
+8	a courier | be capture , and , transport , | Cuba
+8	a courier | be capture , and , transport , to , | Guantánamo Bay
+8	a courier | be capture , and , transport , | this week
+8	a courier | be capture , in , | East Africa
+8	a courier | link , in , | Pakistan
+8	the handling | of , | terrorism suspect
+8	a courier | link , | Al Qaeda official
+8	a courier | link , | terrorist cell
+8	a courier | link , in , | the Horn of Africa
+9	director | at , | George Eastman House in Rochester
+9	director | in , | photograph conservation
+9	director | of , | the advanced residency program
+10	Nev. | will , be ask , they , | question
+10	Nev. | sponsor , | municipal employee
+10	Nev. | sponsor , | County
+10	the democratic presidential contender | be , appear , | Wednesday in Carson City
+10	the democratic presidential contender | be , appear , | Nev.
+10	Nev. | for , | a forum
+10	Nev. | sponsor , by , | Federation of State
+11	here on Thursday | between , | the United States
+11	Europe -- | and , | Iran and Syria
+11	here on Thursday | of , | proxy war
+11	here on Thursday | | a snapshot
+12	professor | in , | Eugene
+12	professor | at , | the University of Oregon
+12	professor | of , | chemistry
+13	say it will | start , | Brussels
+13	say it will | start , to , | Kennedy International Airport from Delhi
+13	say it will | start , with , | daily flight
+13	domestic carrier | in , | India
+13	Airways | in , | say it will
+13	say it will | start , to , | the United States
+13	say it will | start , in , | late August
+14	a writer 's yearlong journey | take , | Indonesia
+14	a writer 's yearlong journey | of , | self
+14	a writer 's yearlong journey | take , | she
+14	a writer 's yearlong journey | take , to , | Italy
+14	a writer 's yearlong journey | take , | India
+15	Williams | take , in , | November
+15	Williams | take , | Ghana in West Africa
+15	Williams | take , | enormous pleasure
+15	Williams | take , | she
+15	Williams | take , in , | 10-day visit
+15	Williams | take , to , | Senegal
+16	Rita Williams-Garcia of the United States | of , | will participate
+17	the state of Punjab | in , | India
+17	this irish culture | be , and , be , represent , from , | the state of Punjab
+17	it be still | be , represent , after , | many year of immigrant
+17	this irish culture | be , and , | it be still
+18	's share of the global art market | be larger than , | that of Paris
+18	's share of the global art market | be , | seven time
+19	the area | compare , with , | a year earlier
+20	the U.N. | insert , lead , by , | France and Italy
+20	the U.N. | insert , | a big european contingent
+20	the U.N. | insert , of , | troops
+20	Hezbollah | be push , off , | the border
+20	Hezbollah | be push , by , | Israel
+20	Hezbollah | be push , and , in , | its place
+20	the U.N. | insert , | peacekeep force
+21	Charles Harrelson | have die in , in , for , of , | the Associated Press report
+21	Colo. | serve , for , | the murder of a federal judge
+21	Colo. | serve , | life sentence
+21	Father | die , | Prison Woody Harrelson
+21	Charles Harrelson | have die , | Colo.
+21	Father | die , | Charles Harrelson
+21	Charles Harrelson | have die in , | the high-security federal prison
+22	be part of a larger | | the failure of the american project
+22	be part of a larger | | Iran
+22	be part of a larger | in , | Iraq
+22	he | contend that , | the Bush administration 's public emphasis
+23	Pompidou in Metz | | part of they
+23	Pompidou in Metz | in , | eastern France
+23	Pompidou in Metz | of , in , | storage
+23	Louvre in Lens | of , | Paris
+24	plane | fire , say , be , | rocket into Israel
+24	plane | fire , say , be , on , | its way
+24	plane | fire , say , be , laden with , | explosive
+24	plane | fire , on , | car that
+25	Airport | in , | Ireland
+25	FlyGlobespan | have start , | thrice-weekly service
+25	FlyGlobespan | have start , in , | County Mayo
+25	FlyGlobespan | have start , between , | Kennedy International Airport
+25	FlyGlobespan | have start , | Knock
+26	midnight | already , back , | South Korea
+26	midnight | in , | Hanoi
+27	Akio Morita | in , establish , in , | the early 1960
+27	Sony Corporation | wish , | Akio Morita
+27	he | play , in , assist , | Sony
+27	he | play , in , assist , | middle school classmate
+27	heartfelt sympathy | for , | the instrumental role
+27	Akio Morita | in , establish , | Sony 's presence in the United States
+27	Sony Corporation | wish , | heartfelt sympathy
+27	heartfelt sympathy | to , | family
+27	Sony Corporation | wish , along , with , | utmost respect
+27	Sony Corporation | wish , | gratitude
+28	general manager | for , sign , | José Calderón from Spain
+28	general manager | for , sign , | point guard
+29	most of whom | have grow up , -- , after , be accuse of , plot to blow up , and , attend , in , | Ontario
+29	most of whom | have grow up , -- , after , be accuse of , plot to blow up , of , | the canadian parliament
+29	most of whom | have grow up in , | middle-class home
+29	most of whom | have grow up in , | Canada and the United States
+29	young man | be arrest on , | terrorism charge
+29	most of whom | have grow up , -- , after , be accuse of , plot to blow up , | behead member
+30	defendant | try , in , | absentia
+31	Vega | for , | AT&T
+31	Vega | of , | regional wireline operation
+33	yoga-inspired babymoon | give , | expectant parent
+33	www.amansala.com | in , | Tulum
+34	no joy | in , | Dawsonville
+35	New Jersey | receive , at , | the Pennsylvania border
+35	New Jersey | receive , across , | the Delaware river
+35	New Jersey | receive , in , | Westchester
+35	New Jersey | receive , from , across , | the Hudson
+37	many immigrant muslim child | find themselves , catch , between , | hostile world
+37	Ms. Kahf | come , | Syria
+37	Syria | and , like , | she
+37	Ms. Kahf | come , to , | this country
+41	Todd | consider , one , crash , | TXU
+41	speaker | include , | David Bonderman
+41	speaker | include , | Todd
+41	speaker | include , of , | the Texas Pacific Group
+41	Todd | of , | Kohlberg Kravis Roberts & Company
+42	a center of brass production | since , | the Middle Ages
+43	the co-founder of the Blackstone Group | make , | last year
+45	Seemiller | use , | one side of the
+45	Vogel | employ , | style
+45	wicked topspin loop | | the way bill
+46	Israel | view , for , | war
+46	Egypt | have , expel , | the peacekeeper
+46	Egypt | have , expel , from , | Sinai
+46	Egypt | have , expel , | Gaza in mid-May
+46	Israel | view , as , | part of a egyptian plan
+47	Rodríguez | only , to , | a proposal
+47	it be far | from , the , end , predict , | six month ago
+47	six month ago | by , | Zapatero of Spain
+47	government | fight to keep , | Endesa
+47	government | fight to keep , | E. On
+48	the government | promise , of , return , in , | Michoacán
+48	the government | promise , | hometown
+48	the government | promise , of , return , in , | Mexico
+48	the government | in , | the state of Michoacán
+48	the government | promise , to pay for , | the transport
+48	the government | promise , of , return , | body
+48	the government | promise , of , return , from , | any point
+49	the company have | -- , | Cytyc in Marlborough
+49	the company have | -- , | Hologic in Bedford
+51	Mrs. Somary | of , | Mendelssohn Project
+52	exile headquarters | in , | northern India
+52	karma | | exile headquarters
+52	a tibetan-american documentary filmmaker | name , | karma
+52	make a movie | settle , in , | Dharamsala
+52	make a movie | about , | the plight of tibetan
+52	make a movie | flee , | persecution
+53	the truck | enter , at , the , | Kerem
+53	the truck | enter , | Gaza from Israel
+54	evidence of Mr. Waldheim | in , | war crime
+54	scholar | to , comb , for , | evidence of Mr. Waldheim
+54	World Jewish Congress | ask , | Professor Herzstein
+54	World Jewish Congress | ask , | scholar
+54	scholar | of , | nazi history
+54	scholar | to , comb , | the National Archives
+56	Telugu | in , | Hyderabad
+56	mother | teach , in , | Sanskrit
+56	mother | teach , for , | University
+56	mother | teach , | online course
+57	Al Qaeda | be , never , involve , against , | Israel
+57	Al Qaeda | be , never , involve , in , | terrorist attack
+58	Boyd | of , | Rosemont
+58	he | be , survive , | Margaret Terry Red Evans
+58	he | be survive by , | wife
+58	Shelley Evans | of , | Cambridge
+58	Margaret Terry Red Evans | of , | Bainbridge Island
+59	a liberal art college | on , | Lake Michigan in Chicago
+59	a liberal art college | of , | student
+59	the game be | | a liberal art college
+59	the game be | at , | Lake Forest
+62	conflict zone | be , and , among , | favorite target
+62	conflict zone | like , | Chhattisgarh
+63	Mr. Abbas | and , work , to , | the West Bank
+63	Mr. Abbas | and , work , with , | Israel
+63	Mr. Abbas | | palestinian faction
+63	Mr. Abbas | | the rocket fire
+63	Mr. Abbas | from , | Gaza
+63	Mr. Abbas | and , work , toward , | a new cease-fire
+64	they think | why , they , do , | the wall
+64	official | in , of , start , think , about , across , from , on , | they think
+64	official | in , | the town of Clarkstown
+65	Mexico | on , | the beach
+65	Mexico | for , | a few day
+66	Glasgow Celtic | in , | Premier League
+66	four team | clinch , | Inter Milan in Italy
+66	four team | clinch , | first place
+67	Ontario | gaze , at , | the forested hill
+67	a tourist | from , | Tobermory
+68	demolition | tend , to , precede , most , and , in , | lower Manhattan
+69	Representative Tom Latham | also , vote , for , | the interest cut
+70	he will meet | meet , | Mahmoud Abbas
+70	he will meet | meet , with , | president of the palestinian Authority
+70	Mr. Putin | | he
+70	Mr. Putin | | Middle Eastern
+70	Middle Eastern | by , travel , where , | he will meet
+70	Jordan | where , with , | King Abdullah II
+71	Palestinians | say , have lead to , | further impoverishment
+71	Israel | cite , have , isolate , | a policy
+71	Israel | cite , have , isolate , | Gaza
+71	Israel | cite , | security reason
+72	Métro | at , | Gare du Nord in Paris
+72	the issue of security | be , bring , | the police
+72	the issue of security | be , bring , between , | protester
+72	the issue of security | be bring to , | the forefront
+72	the issue of security | be , bring , of , | the presidential campaign
+72	the issue of security | be , bring , | last week
+72	the issue of security | be , bring , after , | a eight-hour standoff
+73	he | go back , and , in , | France and Spain
+73	he | go back , and , | odd job
+73	he | go back , and , | drug-taking
+73	he | go back , and , of , | displacement
+73	he | | Mexico
+73	he | publish , | two book
+73	he | publish , of , | verse
+73	he | go back , and , | a long period
+74	Lucia Bowen Cross | of , | Wilton
+74	Gerald Knorr | of , | Seattle
+74	Roy Call | of , | Cleveland Heights
+75	Oklahoma 's democratic governor | shortly before , call , for , of , | the state address
+75	Oklahoma 's democratic governor | shortly before , call , for , | he
+75	Oklahoma 's democratic governor | shortly before , call , for , for , | 3-year-old
+76	France | come through , with , | the resource
+77	impose sanction | in , | 1991
+77	impose sanction | until , | its independence
+77	impose sanction | from , | absorption
+77	house of Parliament | call , on , | President Vladimir V. Putin
+77	house of Parliament | call , to , sever , or , to , | impose sanction
+77	impose sanction | on , | Estonia
+77	impose sanction | of , | the Soviet Union
+78	many other | sit , on , some , of , | vulnerable floodplain
+78	be home | to , | this village
+78	many other | sit , on , some , in , | India
+78	the death toll | stand , at , in , | bihar state
+79	he shoot | in , | Spain
+79	it | survey , | he shoot
+79	it | survey , | the revolutionary work
+80	Claudia | be , one , reside , and , the , remain , be spread , among , | the province
+80	Claudia | be , one , reside , in , | Havana
+80	Claudia | be , one , live , in , | Cuba
+80	Claudia | be one of , about , | Jews
+81	Sorrento Cooking School | on , | Amalfi Coast in Italy
+81	Sorrento Cooking School | at , | Esperidi Resort
+81	you can | at , | Sorrento Cooking School
+82	Germany | in , | 1916
+82	life | begin , | Germany
+82	life | begin , in , | Munich
+83	Syria | be , be investigate for , | Rafik Hariri
+83	Syria | be , be investigate for , | Lebanon 's former prime minister
+83	Syria | be be investigate by , | the United Nations
+84	the state | be , retool , to , include , all , encompass , | many of its
+84	the state | be , retool , to , include , all , of , | Cook County
+84	the state | be , retool , | the program
+85	a first-year resident | at , | Johns Hopkins Hospital in Baltimore
+85	a first-year resident | in , | clinical pathology
+87	15 percent of the | must go , in , | a equity fund
+87	15 percent of the | to , | individual school
+87	15 percent of the | from , | parent
+87	the combined district of Santa Monica | require , that , | 15 percent of the
+87	15 percent of the | must go , be , administer , by , | a independent foundation
+87	parent | | educational foundation
+87	parent | in , | response
+87	parent | to , | a statewide law
+87	parent | cap , | property tax
+88	lower-level prisoner | from , be hold at , near , in , | the report say
+88	lower-level prisoner | be hold at , | a military base
+88	lower-level prisoner | from , | Afghanistan and Iraq
+89	it | to , | personal use
+89	another town | with , defraud , by , use , | when in fact
+89	another town | with , defraud , | the government
+90	Gordon H. Smith of Oregon | start , follow , | last week
+90	Gordon H. Smith of Oregon | start , follow , | Senator Norm Coleman of Minnesota
+90	Gordon H. Smith of Oregon | start , | late last year
+90	Gordon H. Smith of Oregon | start , | the trend
+91	a range of legal expert | describe , | war-crimes charge
+91	a range of legal expert | describe , in , | decade
+91	a range of legal expert | describe , as , | the first child fighter
+91	be at the center of a legal battle | be , | a arraignment
+92	prison | | operation
+93	he | be , survive , | Linda
+93	he | be survive by , | wife
+94	the toast of the United Nations | begin , but , | Tony Parker of France
+94	Spurs | would , have become , | the toast of the United Nations
+94	the toast of the United Nations | begin , but , with , | Duncan
+94	the toast of the United Nations | begin , but , of , | the United States Virgin Islands
+94	the toast of the United Nations | begin , but , | Ginóbili of Argentina
+96	a center | | Europe and North America
+96	a center | for , | terrorism
+96	the suicide attack | in , | Algiers
+96	the capital | be , in , | more than a decade
+96	Europe that Algeria | be , become , | a center
+96	the capital | follow , | warning
+98	strange day | on , | PLANET EARTH
+99	the bishop | be , meet , | Shimon Peres
+99	the bishop | be meet by , | Israel 's deputy prime minister
+100	www.franconianotchstatepark.com | in , | New Hampshire
+100	Flume | of , | all part
+101	both country | have , also , drag , | they foot
+102	director | maintain , on , | fishing
+102	he turn | for , | guidance
+102	director | maintain , | a elaborate global database
+102	director | of , | the fishery center
+102	director | at , | the University of British Columbia
+103	Mr. Gonzales | have , betray , | the ideal
+103	both former prosecutor | be , especially , about , | the way
+104	you can not | tell , what , go , into , | the final mix
+104	Mexico City | act , until , | you can not
+104	Mexico City | act , | ingredient
+104	Mexico City | act , like , | a food processor
+105	Mahwah | through , | March 7
+105	unimportant event | | gallery
+105	unimportant event | | Kresge
+105	unimportant event | from , | Centre d'Art
+107	a professor of bioethic | | May
+107	human | be build , and , act , | a professor of bioethic
+107	good thing | happen , to , | good people
+107	human | be build , and , act , out , of , | empathy
+108	underground band | as , play , from , | Franz Ferdinand
+108	reactor | make , break , as , to , | its mission
+108	underground band | from , | Mexico
+108	reactor | make , break , | underground band
+110	rooftop version | be , pop up , in , | urban area
+110	Germany and Spain | in , | Britain
+110	rooftop version | be , pop up , over , | efficacy
+110	the concept of small wind turbine | be , blossom , in , | Canada
+112	Israel | can , by , | brute force
+112	Israel | can , | dangerous enemy
+113	Mr. Yeltsin | develop , perform , | a angioplasty
+113	Mr. Yeltsin | develop , of , | further heart trouble
+113	Mr. Yeltsin | develop , | symptom
+114	Russia | to put , on , | Iran
+114	american official have | be , | a commercial incentive
+115	Mr. Abubakar | have , defect , to become , | a presidential candidate
+115	Mr. Abubakar | have , defect , from , | the president 's party
+115	a presidential candidate | for , | another party
+115	Nigeria 's president | may , unseat , | vice president
+116	Mr. Bush have | instruct , -- , and , -- , | Bashar al-Assad
+116	one Republican | that , have , instruct , -- , and , | Israel
+116	one Republican | accompany , | she
+116	one Republican | | such question
+116	one Republican | during , | the three year
+116	Mr. Bush have | instruct , | he
+118	many other | sit , on , some , of , | vulnerable floodplain
+118	be home | to , | this village
+118	many other | sit , on , some , in , | India
+118	the death toll | stand , at , in , | bihar state
+119	the two party | on , | Tuesday
+119	the two party | | finger
+119	a freshman | campaign , against , | the war
+120	she | serve , | Mass.
+120	she | serve , at , | Lesley University in Cambridge
+120	she | serve , of , | trustee
+121	the conference | be , perhaps , better know , on , | the day
+121	the conference | be , perhaps , better know , than , for , | the comment of Shimon Peres of Israel
+121	the conference | be , perhaps , better know for , | sighting
+121	the conference | be , perhaps , better know , of , | Ms. Jolie
+121	the conference | be , perhaps , better know , | boyfriend
+121	the conference | be , perhaps , better know , | Brad Pitt
+122	material | serve , | creativity
+122	material | serve , of , | inventiveness
+122	material | serve , as , | the medium
+123	a latin rock band | from , | Guadalajara
+123	distinction | go , | a latin rock band
+123	distinction | go , to , | Maná
+124	the strategy | involve , follow , found , | Black Entertainment Television
+124	the strategy | involve , follow , like , | Robert L. Johnson
+124	the strategy | involve , to , | elect official
+124	the strategy | involve , | strong outreach
+124	the strategy | for , reach , at , | this early stage of the campaign
+124	the strategy | for , reach , | black voter
+124	the strategy | involve , | business leader
+124	the strategy | involve , follow , by , | phone call
+124	the strategy | involve , follow , | she
+124	the strategy | involve , follow , | candidacy
+124	the strategy | involve , follow , | she
+124	the strategy | involve , follow , from , | husband
+125	no one | seem , to , be worry about , | a downturn
+125	Stephen G. | of , | Bain Capital
+125	no one | on , | Thursday night
+125	no one | at , | a symposium
+126	I | support , | the underlying bill
+126	I | for , | cloture
+127	I | have be study , in , | school district
+127	I | have be study , | choice
+127	I | have be study , | empowerment
+127	I | along , with , | a team
+127	I | of , | educator
+127	I | | school policy expert
+127	I | have be study , | the adoption of equity
+130	Mr. Bishara | with , | a foreign agent
+130	Mr. Bishara | of , have , assist , during , | Israel 's war
+130	Mr. Bishara | of , have , assist , | a enemy
+131	Aziz Pahad | issue , | he
+131	Aziz Pahad | urge , | Zimbabwe
+131	Aziz Pahad | urge , to ensure that , be , respect , | accord to a statement
+131	the rule of law | for , | the rights
+131	the rule of law | of , | Zimbabweans
+132	the prime minister | be elect , | 40 year ago
+132	the prime minister | be elect , as , | a member of Parliament from Corrèze
+132	Mr. Chirac | begin , | he
+132	Mr. Chirac | begin , as , | a adviser
+132	Mr. Chirac | begin , | the prime minister
+132	the prime minister | be elect , for , | the first time
+133	he | immigrate , where he become , | a successful entrepreneur
+133	he | immigrate , to , | US
+133	Boris | survive , | concentration camp
+134	a guadeloupe-born female lawyer | in , | Paris
+134	a guadeloupe-born female lawyer | from , | the working-class 20th arrondissement
+135	Hamburg | will , | the official say
+135	Airbus | now , produce , | France
+135	Hamburg | will , | a production line
+135	Hamburg | will , of , | the a320
+135	Hamburg | will , | the single-aisle jet
+135	Airbus | now , produce , in , | Toulouse
+136	Joanne P. Gregory | have join , as , | a partner
+136	Joanne P. Gregory | of , | Winston
+136	Joanne P. Gregory | | Strawn in Chicago
+136	Joanne P. Gregory | have join , | the New York office of Hughes Hubbard
+136	Joanne P. Gregory | have join , | Reed
+138	Chad Hurley | a , in , | a trust
+138	Chad Hurley | of , | Google
+139	the Times 's puzzle editor | pick , | a winner
+139	the Times 's puzzle editor | try out , | new japanese logic puzzle
+141	George W. Bush | bear , in , | New Haven
+141	George W. Bush | bear , on , | July 6
+141	the first jew | on , | presidential ticket
+142	the White House | pursue , stabilize , reassess , and , examine , of , achieve , with , | Iran
+142	the White House | pursue , stabilize , reassess , and , examine , of , achieve , | solution
+142	the White House | pursue , stabilize , reassess , and , examine , | the prospects
+142	the White House | pursue , stabilize , reassess , with , | Syria
+142	the White House | pursue , | a collection of goal
+142	the White House | pursue , of , | a single strategy
+142	the White House | pursue , stabilize , for , | the long term
+142	the White House | pursue , stabilize , reassess , | its relationship
+143	who be try | | power
+143	who be try | | he
+143	Mr. Sadr | should , be , view , | who be try
+143	Mr. Sadr | should , be view as , | a politician
+144	a historic region | in , | northern Spain
+144	a little northeast | of , | Rioja
+144	such be the case | with , | Navarre
+145	background parallel | of , | many american computer entrepreneur
+145	some aspect | of , | background parallel
+146	Senators Chuck Hagel of Nebraska | urge , | the recess
+146	Senators Chuck Hagel of Nebraska | urge , | late Wednesday
+146	Senators Chuck Hagel of Nebraska | urge , | Senate leader
+147	Ron | of , | Tom Tancredo of Colorado
+147	Former | of , | Paul
+147	Match | of , | Cox
+148	help the United States | win , and , later , pitch , for , | the Yankees
+148	help the United States | win , and , later , pitch , | a no-hitter
+148	Abbott | compete , for , | Michigan
+148	Abbott | compete , | help the United States
+148	help the United States | win , | Olympic gold medal
+148	help the United States | win , | South Korea
+149	Seoul | look , like , in , on , | he write
+149	I have just | cross , on , | railroad
+149	Mr. van Agtmael | | South Korea for Bankers
+149	I have just | cross , | Trans-Siberian
+149	Seoul | look , like , | city
+149	Seoul | look , in , | the Soviet Union
+151	Mr. Paulison | begin , be , damage , by , | floodwater
+151	Mr. Paulison | begin , of , | First Baptist Church
+151	Mr. Paulison | begin , | the minister
+151	Mr. Paulison | begin , | homeowner
+151	Mr. Paulison | begin , | he
+151	Mr. Paulison | begin , of , | the flood-ravaged area
+151	Mr. Paulison | begin , on , | Monday in Mamaroneck
+151	Mr. Paulison | begin , where he meet with , | Senator Hillary Rodham Clinton
+152	the fossil | be describe in , | Canada
+152	the fossil | be , describe , of , | the University of Alberta
+152	the fossil | be , describe , | Michael W. Caldwell
+152	the fossil | be , describe , | Reggio Emilia in Italy
+152	the fossil | find , | a century ago
+152	the fossil | be describe in , | Journal of Vertebrate Paelontology
+152	the fossil | be describe by , | Alessandro Palci
+152	the fossil | be , describe , of , | University of Modena
+154	Damascus | even , call , in , | the word of Vice President Dick Cheney
+154	Damascus | even , call , | bad behavior
+154	meeting | with , | President Bashar al-Assad
+154	White House in April | | Speaker of the House
+154	White House in April | | Nancy Pelosi
+154	Nancy Pelosi | for , visit , | Syria 's capital
+154	Nancy Pelosi | for , visit , and , | meeting
+155	Adolf Eichmann | complain , about , | mother
+155	the Holocaust | in , | Jerusalem
+155	Adolf Eichmann | complain , to , | Antonescu
+156	Germany | hold , and , | next month
+156	Germany | hold , and , to , | the summit of the group of 8
+156	Berlin | underscore , | the centrality
+156	Berlin | of , | franco-german tie
+156	Germany | hold , | presidency of the European Union
+156	Germany | hold , and , | will play host
+157	New York City 's population | record , | Staten Island
+157	New York City 's population | record , | any gain
+157	New York City 's population | record , with , | a steady influx of immigrant
+157	New York City 's population | record , | growth
+157	New York City 's population | record , in , | Manhattan
+158	say the company | be still work , on , | technology
+159	goalie | from , | Colorado Springs
+159	Grant | of , | Minnesotans
+159	Ryan Potulny | all , of , | current player
+159	Minnesotans | | Kellen Briggs
+159	Lucia | have sign , | player
+159	Lucia | have sign , from elsewhere , like , | Thomas Vanek
+159	Ryan Potulny | all , | he
+159	Grant | from , | North Dakota
+161	the first mountain resort | to , have earn , from , | Audubon International
+161	the first mountain resort | to , have earn , | Audubon Green Community
+161	the first mountain resort | in , | the country
+162	Ontario | like , or , in , | a canoe
+162	Crystal Beauty | base , | Ontario
+162	Ontario | like , in , | the Caribbean
+162	the low-key owner | of , | Products
+163	the presumption | do not make , | innocent
+164	chief executive of General Electric | for , | Ms. Bartiromo
+164	chief executive of General Electric | | he support
+165	Royal Ballet of Britain | visit , | a mixed program
+165	Royal Ballet of Britain | visit , with , | Romeo and Juliet
+165	Royal Ballet of Britain | visit , | Puebla
+165	Royal Ballet of Britain | visit , | Guadalajara
+165	Royal Ballet of Britain | | Mexico
+165	Royal Ballet of Britain | for , | the first time
+165	Royal Ballet of Britain | in , | 30 year
+165	Royal Ballet of Britain | visit , | Mexico City
+166	Manhattan | at , | Karamu House in Cleveland
+166	a certified master teacher | of , | the technique
+166	he | have train , in , the , after , | early dance study
+166	a certified master teacher | of , | Katherine Dunham
+166	Manhattan | with , | Eleanor Frampton
+167	she | of , | United Methodist Church in Mamaroneck
+168	one of the founder of Endemol | in , | the company
+168	one of the founder of Endemol | | reality television series
+168	one of the founder of Endemol | like , | big Brother
+168	one of the founder of Endemol | like , | Deal
+168	one of the founder of Endemol | | No Deal
+169	Free | help , for , | free skiing
+169	Free | help , in , | return
+169	the fourth-largest ski resort | in , | Colorado after Vail
+169	Free | help , | the resort
+169	the fourth-largest ski resort | have , | a ski
+169	Free | help , | racing event
+170	a exodus | for , | skilled worker
+170	a exodus | | opportunity
+170	a exodus | to , | other country
+170	a exodus | among , | other thing
+170	a exodus | | lower level
+170	a exodus | of , | charitable donation
+172	Dr. Martin | marry , | Ontario
+172	Dr. Martin | marry , at , | St. Andrew 's Presbyterian Church in Kingston
+172	Dr. Martin | marry , on , | May 6
+173	who be often | in , | the border region
+173	who be often | to , | Sunnis
+173	who be often | | Syria 's
+173	a offshoot of Shiism | be , ally , sponsor , persecute , | who be often
+173	Syria | be lead by , | Alawites
+173	a offshoot of Shiism | be , ally , sponsor , | militia that
+173	a offshoot of Shiism | be , ally , with , | Iran
+173	a offshoot of Shiism | be , ally , in , | the eye of Sunnis
+174	a wide-body jet | will , of , to , | the company say
+174	35 percent | | Spain
+174	35 percent | will go , | 10 percent
+174	35 percent | | Britain
+175	a second-year resident | in , | Boston
+175	a second-year resident | at , | Beth Israel Deaconess Medical Center
+176	Palestinians | die , | a new cease-fire
+176	Palestinians | die , in , | factional fighting
+176	Gaza | kill , at , | Palestinians
+176	Gaza | hit , on , | Thursday
+176	Israel | move , | a small number of tank
+176	Israel | move , | Gaza
+176	Gaza | hit , | Hamas
+176	Gaza | hit , with , | airstrike
+178	six foot | be , smother , | aquatic life
+178	six foot | in , | some place
+178	alum | be , accumulate , of , | Kensico Reservoir
+178	alum | be , accumulate , in , | Westchester
+178	the city | | that sludge
+178	the city | | six foot
+179	Republican of California | on , | climate
+179	Republican of California | | the so-called consensus
+180	Dodge | at , | Darlington Raceway in South Carolina
+180	the car | will be use , | Dodge
+180	the car | will be use , in , | race
+181	the company 's cruise operation | will have , with , and , | Mediterranean
+181	the company 's cruise operation | will have , | its debut
+181	Mediterranean | depart , from , | Barcelona
+181	other new cruise | include , | DISNEY
+182	a drastic diminution of the West | from , | Iran and North Korea
+182	a drastic diminution of the West | | threat
+182	it | could result in , | a drastic diminution of the West
+183	a rectangular stone house | between , | the town of Todi
+183	the couple have | already , buy , and , restore , | Casa Fizie
+184	TED Global | will be hold at , | the base of Mount Kilimanjaro in Tanzania
+184	TED Global | in , | June
+184	he | have start , | TED Global
+185	a letter | warn , | security problem
+185	a letter | warn , | he
+185	Amir Peretz | give , and , | a letter
+185	Amir Peretz | give , | he
+186	who be recently | transfer , to , | subsidiary
+186	Holden | in , | Port Melbourne
+186	who be recently | transfer , from , | G.M. 's design headquarters
+187	some critic | appear , determine , | the measure
+187	the republican leader | though , they , | it could be
+188	institutional subject | to , one , that , use , | keynesian macroeconomic
+188	institutional subject | to , one , that , use , of , | microeconomic
+188	institutional subject | to , one , that , use , | the tool
+188	Richard Musgrave | transform , in , and , from , | institutional subject
+188	institutional subject | to , one , that , use , | the effect of tax
+188	a professor of economics | at , | Harvard
+188	the president of the | say , in , | a statement issue
+188	the president of the | issue , by , | Harvard
+188	Richard Musgrave | transform , | economics
+189	Maryland | to , | be announce
+189	Maryland | on , | a date
+189	memorial service will be hold | in , | Annapolis
+190	chairman of the | of , | the National Governors Association
+191	a former intern | at , | Hotline in Seoul
+192	system | be , build , but , against , | Iran
+193	Fla. | win , | this year
+193	Brittany Lincicome | from , | Seminole
+193	Brittany Lincicome | | Fla.
+193	Fla. | win , | she
+193	Fla. | win , | second pro tournament
+194	say they plan | while , they , await , on , whether , would , be , declare , | a disaster area
+194	say they plan | while , they , await , on , whether , | all of New York City
+194	say they plan | while , they , await , on , whether , | Suffolk
+194	say they plan | while , they , await , on , whether , | Nassau
+194	say they plan | | a charity
+194	say they plan | for , | flood victim
+194	say they plan | while , they , await , on , whether , in , | New York State
+194	say they plan | while , they , await , on , whether , | Westchester
+195	Randy M. | die , | France
+195	Randy M. | die , in , | Paris
+195	Randy M. | die , | March 5
+196	it be difficult | -- , show , like , | villain
+196	KFC\/Taco Bell | at , | night
+196	KFC\/Taco Bell | in , | New York City 's Greenwich Village
+196	it be difficult | -- , show , scurry , | KFC\/Taco Bell
+196	it be difficult | -- , show , of , | rat
+196	KFC\/Taco Bell | in , | book
+196	it be difficult | to , | the image
+196	it be difficult | -- , show , on , | television
+196	it be difficult | -- , show , in , | newspaper
+196	it be difficult | -- , show , on , | YouTube
+197	the verrazano-narrows bridge | be complete , link , have , have , bemoan , on , | the island 's infrastructure
+197	the verrazano-narrows bridge | be complete , link , have , have , bemoan , | the strain
+197	the verrazano-narrows bridge | be complete , link , | Staten Island
+197	the verrazano-narrows bridge | be complete , link , to , | the rest of New York City
+197	the verrazano-narrows bridge | be complete , link , have , to , | island
+197	the verrazano-narrows bridge | be complete , link , have , have , bemoan , | the disappearance
+198	mystique | exert , reach , extend , of , | racing team
+198	mystique | exert , reach , extend beyond , | the devoted fan
+198	mystique | exert , | a powerful draw
+198	mystique | exert , reach , | those fortunate driver
+198	mystique | exert , reach , have experience , | the sublime sport car
+198	mystique | exert , reach , have experience , make , | Italy
+200	King Abdullah | | Jordan
+200	King Abdullah | on , | the sideline of a conference
+200	King Abdullah | be schedule to meet with , | Prime Minister Ehud Olmert of Israel
+200	King Abdullah | | Tuesday
+201	restaurant | alone , in , kick , and , start , serve , | this year
+201	restaurant | alone , in , kick , | the bottle habit
+201	restaurant | alone , in , kick , until , | Alice Waters
+201	restaurant | alone , in , kick , and , start , serve , | house-made sparkling water
+201	water | at , | Chez Panisse in Berkeley
+202	vice president | run , with , | a armful
+202	vice president | run , | the field
+203	baseball official | want , | Cuba
+203	A history | advise , and , have , | the impression
+203	A history | advise , | Garagiola
+203	A history | of , | cuban baseball
+204	a avid yankee fan | off , follow , | South Carolina
+204	a avid yankee fan | off , follow , | Florida
+204	a avid yankee fan | off , follow , by , | Iowa
+204	a avid yankee fan | attend , | the team 's opening game
+204	a avid yankee fan | in , | New York
+204	a avid yankee fan | attend , | yesterday afternoon
+204	a avid yankee fan | off , to , | New Hampshire
+205	power plant | have , close , in , some , include , | Baharbari
+205	power plant | have , close , | chaotic part
+205	power plant | have , close , in , some , from , | Africa
+205	power plant | have , close , in , some , to , | dysfunctional state
+205	power plant | have , close , in , some , in , | India like Bihar
+206	a sentimental story | about , | a prison counselor
+206	Salty Air | from , | Italy
+206	a funny-sad dysfunctional-family melodrama | tell , and , set , | the art of Crying
+206	the art of Crying | from , | Denmark
+206	a funny-sad dysfunctional-family melodrama | tell , in , | the voice of a child
+206	a road picture | about , | child
+208	the story of the injured horse | against , | Italy
+208	the story of the injured horse | in , | the World Cup final
+208	Cohen | | the story of the injured horse
+208	Cohen | be , refer , of , | Barbaro
+208	Cohen | be , refer , | the head butt
+208	Cohen | be , refer , by , | Zinédine Zidane of France
+210	William Sederbaum | of , | Jacksonville
+211	last week 's takeover of the | by , | Hamas
+211	Gaza | be lose , with , | last week 's takeover of the
+211	Fatah | turn , | the West Bank
+211	Fatah | turn , into , | a model
+211	Fatah | turn , for , | the palestinian future
+211	Gaza | be lose to , | extremism
+212	researcher | on , | the topic
+212	photography | develop , in , | a natural environment
+213	a law enforcement expert | at , | New York University
+214	a number of country | have favor , | flexible attitude
+214	it | hand , over , | fugitive
+214	it could not | start , | membership talk
+216	a off-road race | through , | Baja California Peninsula in Mexico
+216	a off-road race | on , | a course
+216	he | still , compete , | a off-road race
+216	he | still , compete , in , | Baja 1000
+217	Devils | face , at , | M&T Bank Stadium in Baltimore
+217	Devils | face , in , | a semifinal
+217	Devils | face , | Cornell
+218	proponent | die , at , | home
+218	proponent | die , of , | lung cancer
+218	proponent | for , | corporate responsibility
+219	papa abe | be , | extended family
+219	papa abe | be , | he
+220	he | they , acknowledge , | Cuba
+220	he | they , acknowledge , in , | custody
+220	he | they , acknowledge , | last week
+220	american official say | it be possible that , | the same man
+221	he support | in , | southern Lebanon
+221	he support | against , | Hezbollah
+222	Serdar Tatar | with , in , | New Jersey
+222	Serdar Tatar | with , on , | Army base
+222	Serdar Tatar | with , | soldier
+222	Serdar Tatar | with , plot , | the attack
+223	he | be , survive , | Linda
+223	he | be survive by , | wife
+224	it | win , over , more , of , | the coveted consumer market
+224	research | in , | Motion
+225	artifact | have , be , excavate , to , decorate , | a nearby hotel complex
+225	artifact | have , be , excavate , in , | Calabria
+225	artifact | have , be , excavate , near , | Crotone
+225	artifact | have , be , excavate , from , | the site
+226	he be appoint | to , lead , rebuild , and , | renewal of the state
+226	he be appoint | to , lead , | the governor 's commission
+226	he be appoint | by , | Gov. Haley Barbour of Mississippi
+227	LUCIFER CHU | be as good as , between , | East and West
+227	LUCIFER CHU | be as good , | a example
+227	LUCIFER CHU | | Taiwan
+227	LUCIFER CHU | from , | Taipei
+228	I | of , read , as , | a cultural text
+228	I | of , read , in , | Paris
+228	I | | France
+228	I | with , | the intention
+228	I | of , read , | she
+228	I | of , read , | reception
+230	declare a state of emergency | to , clamp down on , | antigovernment protester
+230	Prime Minister Surayud Chulanont of Thailand | on , | Thursday
+230	declare a state of emergency | in , | Bangkok
+230	Prime Minister Surayud Chulanont of Thailand | reject , | the advice of the general
+230	Prime Minister Surayud Chulanont of Thailand | reject , decline , to , | declare a state of emergency
+231	the chairman and chief executive of Hewlett-Packard | that , | the discussion
+232	a region | about , of , in , | be strong
+232	interest | in , | nuclear energy
+232	a region | seek , | own source of power
+232	a region | about , | Iran 's nuclear program
+233	Amsterdam at Harborside | be build , with , | a indoor swimming pool
+233	Amsterdam at Harborside | be build , | fitness center
+234	that be part of the | support , | Bolivia 's first indigenous president
+235	he shoot | in , | Spain
+235	it | survey , | he shoot
+235	it | survey , | the revolutionary work
+236	Walt Disney-Tishman African Art Collection | be , make up , from , the , acquire , from , to , | the 1980
+236	Walt Disney-Tishman African Art Collection | be make up of , | traditional sculpture
+236	Walt Disney-Tishman African Art Collection | at , | National Museum of African Art
+238	February | | Florida
+238	Jerome E. | | die Tuesday
+239	ambitious effort | to visit , | City of Oranges
+239	ambitious effort | be , entice , | a increase number of expatriate
+239	ambitious effort | to , | showcase
+240	Fla. | recover , | the death of he
+240	Fla. | recover , | illness
+240	Fla. | recover , from , | injury
+240	be at home | in , | Tampa
+241	the morning of he | at , | home
+241	the morning of he | on , | April
+241	respected television syndication salesman | for , | such company
+241	respected television syndication salesman | die , on , | the morning of he
+241	respected television syndication salesman | as , | Star
+241	respected television syndication salesman | of , | 78th birthday
+242	photographer of the year | by , | Missouri School of Journalism
+242	Tyler Hicks | be name , | photographer of the year
+242	staff | for , | the New York Times
+243	this gypsy singer | make , as , | part of the
+243	this gypsy singer | make , | american debut
+243	Spain | best know , with , | Vicente Amigo
+243	this gypsy singer | from , | Córdoba
+243	Spain | best know , | he
+243	Spain | best know for , | recording
+243	Spain | best know , in , | the 1980
+244	Bollywood | from , | India
+244	beauteous figure | of , | Shilpa Shetty
+245	manufacturer | build , | medical device
+245	manufacturer | build , | appliance
+245	business | along , | the border
+245	manufacturer | build , | assembly plant
+245	manufacturer | build , for , | product
+245	manufacturer | build , like , | computer
+246	distinctive indigenous grape | | identity
+246	Navarre | lack , -- , -- , and , | distinctive indigenous grape
+246	Navarre | lack , | both industry leader
+246	Navarre | lack , | example
+246	Navarre | lack , -- , like , | the mastroberardinos
+246	Palacios | of , | Bierzo in Spain
+247	female chef | with , | three Michelin star
+247	the third-generation chef | in , | Valence
+248	a writer 's yearlong journey | take , | Indonesia
+248	a writer 's yearlong journey | of , | self
+248	a writer 's yearlong journey | take , | she
+248	a writer 's yearlong journey | take , to , | Italy
+248	a writer 's yearlong journey | take , | India
+249	Saudi | for , | negotiation
+249	Saudi | as , | the foundation
+249	urge Israel | | Saudi
+251	the american experiment | provide , for , | attack in the United States
+251	the american experiment | provide , | launch pad
+251	the american experiment | | the Middle East
+251	the american experiment | off , | chaos
+251	Mr. Bush | rekindle , and , embolden , to , | develop nuclear weapon
+251	Mr. Bush | rekindle , | he
+251	the american experiment | in , | Iraq
+251	Mr. Bush | rekindle , | argument
+251	a withdrawal | to , | failure
+252	the second-highest peak | | foot
+252	the second-highest peak | in , | Cascade Range
+252	a 14,162-foot stratovolcano | in , | the second-highest peak
+252	a 14,162-foot stratovolcano | in , | Northern California
+254	metropolis | to , | old one
+254	India | have , add , | metropolis
+254	India | have , add , | cosmopolitan
+255	-- one that | be , | son
+255	-- one that | be , | house
+255	son | they , as , | both museum object
+255	-- one that | if ever , be try on , | a large scale
+255	son | they , as , | residence
+255	-- one that | if ever , be try , by , | a major museum
+255	son | they , for , | curator
+255	-- one that | be , | significant piece
+255	-- one that | be , of , | midcentury residential architecture
+256	the dining hall | be offer , from , | local farm
+256	the dining hall | be offer , | fresh produce
+256	the dining hall | at , | Furman University in Greenville
+257	Lucullus | | age
+257	Lucullus | | he
+257	the proprietor of a french quarter antique shop | call , | Lucullus
+258	the hard choice | speak , in , | March 2003
+258	the hard choice | speak , since , | the invasion
+258	the hard choice | speak , | he
+258	american politician | as , | Senator Chuck Hagel
+258	american politician | | Republican of Nebraska
+258	the hard choice | speak , with , | reporter
+258	the hard choice | speak , | he
+259	Patrick Patterson of Huntington | sign , | the final day of the late signing period
+259	Patrick Patterson of Huntington | sign , with , | Kentucky
+260	the authority | describe , talk , about , blow up , | the F.B.I. 's Miami
+261	this comprehensive review of the artist 's | from , the , now , include , than , | work on paper
+262	a comic-book artist | in , | Fremont
+262	a comic-book artist | at , | home
+262	a comic-book artist | be find dead on , | Saturday
+262	a comic-book artist | make , | he
+262	a comic-book artist | make , illustrate , | Batman
+262	a comic-book artist | make , illustrate , at , | a significant period
+262	a comic-book artist | by , | a family member
+264	the head of a | evaluate , | the corps investigation
+264	president of the | of , | committee
+264	the head of a | evaluate , of , | the levee breach
+264	a real step | say , | president of the
+265	Mr. Gonzales | to , | step down
+266	he find himself | surround , by , | man
+266	two week ago | bind , when , | he find himself
+266	he find himself | surround , in , | civilian clothes
+266	a top official | of , | the main faction
+266	a top official | of , | Movement
+266	a top official | for , | Change
+266	two week ago | bind , for , | a meeting
+267	Inopia | offer , -- , | Catalonia
+269	Pierre-Gilles de Gennes | graduate , from , | École Normale Supérieure in Paris
+270	coffee shop | with , | free snack
+270	hotel | in , | Spain
+270	coffee shop | and , | low-cost wi-fus
+270	hotel | in , | Spain
+271	First Church in Boston | replace , burn , in , | 1968
+271	First Church in Boston | replace , | a gothic building
+271	First Church in Boston | in , | Back Bay
+272	real estate magnate | build , | a series of sumptuous property
+272	that make it | for , | super-rich
+272	real estate magnate | who , relocate , to , | Mexico
+273	Popular Resistance | join , | the unity government
+273	rocket attack | continue , but , | they have
+274	the magistrate | also , continue , | capital
+274	the magistrate | also , continue , to , | the magisterial district
+274	the magistrate | also , continue , on , | movement
+274	the magistrate | also , continue , | Mr. Alexander
+274	the magistrate | also , continue , | bail condition
+274	the magistrate | also , continue , | a bond
+274	the magistrate | also , continue , of , | namibian dollar
+275	the senator | have , be join by , | the republican leader
+275	the senator | have be join , in , | they effort
+276	John | in , defend , by , | the British
+276	John | in , defend , from , | a attack
+276	a 25-year-old woman | name , | Margaret Corbin
+276	John | in , defend , in , | Upper Manhattan
+276	a 25-year-old woman | join , | she
+276	John | in , defend , | Fort Washington
+277	a new chapter | in , | Connecticut 's hockey history
+278	who be shoot | while , in , | a classroom
+278	family member | attend , of , | Liviu Librescu
+278	who be shoot | while , | student
+278	family member | attend , | the burial
+282	a rectangular stone house | between , | the town of Todi
+282	the couple have | already , buy , and , restore , | Casa Fizie
+283	nuanced position | predict , as , | a conservative republican lawmaker
+283	nuanced position | predict , | he
+283	Christopher Cox | confound , | both supporter
+283	Christopher Cox | confound , | detractor
+283	Christopher Cox | confound , by , take , | nuanced position
+283	nuanced position | predict , on , | a variety of regulatory issue
+284	husband | in , | 1986
+284	husband | retire , | Florida
+284	husband | retire , to , | Gulf Stream
+285	she | be deny , | the school
+285	she | be deny , | admission to the
+286	Iran while Tehran | suspend , | its enrichment of uranium
+286	he propose | might , suspend , against , | Iran while Tehran
+287	staff of the | of , | we dear friend
+287	staff of the | of , | Steven Pavony
+287	staff of the | in , | Rehovot
+288	Mexico City | now , they , will , descend , | fledging contemporary art fair
+288	Mexico City | now , they , will , descend , | April for Mexico Arte Contemporáneo
+288	curator | have , be , snap up , | Mexico City
+288	Mexico City | in , | place
+288	Mexico City | like , | Basel
+288	Mexico City | now , they , will , descend , on , | the city
+289	a consortium | for , | 9,360
+289	a consortium | in , | Paris
+289	a member of a jewish banking family | emigrate , from , | Germany
+289	a member of a jewish banking family | emigrate , to , | France
+289	Les Bêcheurs | to , | a consortium
+289	a consortium | of , | dealer
+290	who be also | to , | the show
+291	a swiss tenor | be , most , of , | german art song
+291	a swiss tenor | be , most , as , | a interpreter
+292	the commonwealth of Virginia | have , also , undergo , | a major social change
+292	I | | Jamestown
+293	say they expect | before , | the fourth of July
+293	say they expect | | the floor
+293	the minority leader | of , | say they expect
+294	Jordan and Syria | be , bristle , have , stream , over , | they border
+294	Jordan and Syria | be , bristle , about , | iraqi refugee
+295	the Times | | the cost cutting
+295	the Times | by , | Donald E. Graham
+295	the Times | of , | the past few year
+295	the Times | | the recent intimation
+297	the photograph | show , | Mr. Symington
+297	the photograph | show , | Gov. Ernie Fletcher of Kentucky
+298	Poland | do , on , | Stanislaw Wyspianski
+298	Poland | do , as , | a second language
+298	a Fulbright scholar | in , | Cracow
+299	Israel agree | of , undermine , by , improve , in , | the West Bank
+299	Israel agree | of , undermine , by , improve , | life
+299	Israel agree | of , undermine , in , | the eye of Palestinians
+299	Israel agree | of , undermine , | Hamas
+299	Israel agree | with , | the goal
+299	Israel agree | in , | the West Bank
+299	the administration | could , only , support , | a separation
+299	the administration | could , only , support , if , | Israel agree
+299	Israel agree | | political concession
+299	Israel agree | to , | Mr. Abbas
+300	Miss Franca | be invite , exude , | sophistication
+300	she | cut , through , | the room
+300	she | cut , | a swath
+300	a found member of the | become , | a successful choreographer
+300	Miss Franca | be invite , in , | Canada
+300	Miss Franca | be invite to , | a gathering
+300	Miss Franca | be invite , | she
+301	have a job | | the off-season
+301	have a job | line up , on , | Salmon River in Idaho
+301	have a job | line up , as , | a river guide
+302	Altadis | have , | France
+302	the two company | make , | a good geographical fit
+302	Altadis | have , in , | Spain
+302	Imperial | in , | Britain and Germany
+302	Altadis | have , | significant market share
+303	a writer 's yearlong journey | take , | Indonesia
+303	a writer 's yearlong journey | of , | self
+303	a writer 's yearlong journey | take , | she
+303	a writer 's yearlong journey | take , to , | Italy
+303	a writer 's yearlong journey | take , | India
+306	Canada | move , in , | 1983
+306	Canada | move , | CT
+306	Canada | move , to , | Greenwich
+306	Canada | also live in , | Brazil
+306	Canada | | Italy
+306	Canada | | Spain
+306	Canada | | France
+307	how | to , lessen , and , help , | it
+307	how | to , lessen , and , help , | those who
+307	how | to , lessen , | Iraq
+307	Washington | | detailed discussion
+307	detailed discussion | with , | all of Iraq 's neighbor
+307	detailed discussion | on , | how
+307	how | to , lessen , | the violence
+308	Mr. Johnson | retire , and , work , for , | WBZ-TV in Boston
+308	Mr. Johnson | retire , and work as , | a football analyst
+308	Mr. Johnson | retire , before , | the 2005 season
+310	Florida | pass away peacefully on , | April 10
+310	Florida | pass away peacefully at , | home
+310	Irving | of , | Lake Worth
+311	the senior vice president | of , | $ 250,000
+311	the chief financial officer | earn , | salary
+312	Derrick M. Kuzak | echo , | the official stance
+312	Derrick M. Kuzak | at , | the Ford Motor Company
+312	Derrick M. Kuzak | for , | global product development
+314	it | be , enforce , and , | Israel continue
+314	it | be , enforce , in , | Gaza
+315	he shoot | in , | Spain
+315	it | survey , | he shoot
+315	it | survey , | the revolutionary work
+316	Canada | move , in , | 1983
+316	Canada | move , | CT
+316	Canada | move , to , | Greenwich
+316	Canada | also live in , | Brazil
+316	Canada | | Italy
+316	Canada | | Spain
+316	Canada | | France
+317	President | in , | southern Iran
+317	President Bush | have be press , | President
+317	President | to , | Iran
+317	President | | Russia be build
+317	Russia be build | at , | Bushehr
+319	Luisa | on , | February 1
+320	where the government | have rebuff , | he office
+320	where the government | have rebuff , | all western request
+320	Mr. Meshal | live , | Syria
+320	Mr. Meshal | live , in , | Damascus
+321	he go | one , of , | school
+321	he go | to , | Westfield High School
+322	who be charge | by , with , | a terrorism-related offense
+322	mount pressure | to , have , | David Hicks
+322	the prime minister of Australia | under , | mount pressure
+323	42-mile trip | and end at , | Fort Wadsworth on Staten Island
+323	42-mile trip | and end with , | a festival
+323	you can | line up , for , | rider
+323	you can | line up , along , | the route
+324	the golf resort | in , | Uyo
+325	U.S. | compete , in , | FIFA World Cup in Italy
+325	he start | at , | Olympics
+325	he start | for , | the U.S.
+326	the dawn of the online era | stand , | a futuristic brand
+326	Star Trek | as , | Captain James T. Kirk
+326	Mr. Shatner | be choose , because , | the dawn of the online era
+327	district attorney | charge , that , some , might , have come , at , | the hand of the Police Department
+327	district attorney | charge , | behavior
+328	Pellman | for , | four year
+328	Pellman | | medical school
+329	the center of a resort area | in , | winter
+329	the center of a resort area | with , | weekender
+329	the first slopeside development | in , | Stowe
+330	the final communiqué | reflect , a , merge , by , | Mr. Bush
+330	the final communiqué | reflect , a , merge , with , | a proposal
+330	the final communiqué | reflect , a , merge , | Mrs. Merkel
+331	Syria and Iran | with , | the opposition
+334	administration | spar , over , | disaster readiness
+334	administration | spar , with , | Gov. Kathleen Sebelius of Kansas
+336	Ms. Rice say | refer , to , | Havana in April
+336	Ms. Rice say | refer , during , | a visit
+336	Ms. Rice say | refer , | Mr. Castro
+336	Ms. Rice say | refer , by , | Mr. Moratinos
+336	dissident | in , | Cuba
+336	dissident | get , | the right message
+336	I | be , concern , that , in , get , | Ms. Rice say
+336	Ms. Rice say | refer , to , | a decision
+337	Thursday that Russia | would consider , on , | sale of natural gas
+337	Thursday that Russia | would consider , with , | Tehran
+337	Thursday that Russia | would consider , | opec-like cooperation
+337	President Vladimir V. Putin | say , | Thursday that Russia
+338	some iraqi refugee | be sell , or , in , | be difficult
+338	some iraqi refugee | be sell , or , work , in , | sex club
+338	Iraqis | turn , | sex
+338	some iraqi refugee | be sell , | sex
+338	Iraqis | turn , in , | Syria
+338	Iraqis | turn , | the fact
+339	he stop | pay , | due
+339	claim that he | | he have lose
+339	he | attend , | Mexico
+339	he stop | pay , and , | member of the group
+339	he | at , | Albert Einstein College of Medicine
+339	the false statement | include , | claim to have
+339	a assistant clinical professor | that , | be a fellow
+339	he | attend , | medical school
+339	a medical degree from the | at , | Stony Brook
+339	he | attend , in , | Guadalajara
+340	Blue Hill at Stone Barns | in , | Pocantico Hills
+340	this type of veal | be available , | Il Buco
+340	this type of veal | be available at , | Blue Hill
+341	the police | be call on , | Chicago 's West Side
+341	the police | be , call , to , | a bloody crime scene
+342	he want | to , of , | mexican currency
+342	he want | to , | he
+342	home | in , | Guanajuato
+343	rate | reach , | 26 percent
+343	rate | at , | the clinic
+343	rate | among , | heterosexual man
+343	rate | of , | drug-resistant gonorrhea
+344	a consistent critic of the administration 's | who , have , | run for the presidency
+344	the obvious choice | for , | that role
+345	a wine consultant | he become , obsess , when , | he be 6
+345	who grow up | in , | southern France
+345	who grow up | of , | Alzonne
+345	who grow up | in , | the tiny village
+346	announce a agreement | to , | take control of Chrysler
+346	Cerberus Capital Management | in , | the spotlight
+348	Halol | and , build , | Maharashtra
+348	G.M. | would , | production capacity
+348	G.M. | would , in , | India
+348	G.M. | would , to , | vehicle
+348	Halol | in , | the state of Gujarat
+349	Gov. Haley Barbour of Mississippi | of , | Mrs. Clinton
+349	Gov. Haley Barbour of Mississippi | | the political prowess
+350	Airbus | be base , | France
+350	Airbus | be base in , | Toulouse
+351	we | be , provide , for , | distribution
+351	we | be , provide , | a new outlet
+352	Libby Lenton of Australia | be , enter , and , already have , | butterfly
+352	Libby Lenton of Australia | be , enter , and , already have , in , | the 4-by-100 freestyle relay
+352	Libby Lenton of Australia | be , enter , in , | event
+353	chairman of the Federal Reserve | to , | Mr. Blair
+354	the head buyer | for , | Peck
+354	emigrate to the United States | she become , | the head buyer
+355	dog | | the park
+355	dog | over , | a 15-acre parcel of land
+355	dog | and , rely , to , | keep they
+355	Winslow Park in Westport | be stick , with , | permissive approach
+356	the Democrats | allow , on , at , | republican alternative
+357	Ira Winkler | about , | the subject
+357	Ira Winkler | for , | Information Systems Security Association
+358	the jama article | be , be publish , die , | India
+358	the jama article | be , be publish , die , at , | hospital
+358	the jama article | be , be publish , die , of , | acute renal failure
+359	he | be , | himself
+360	it | reduce , | Iran 's regional influence
+361	he | direct , and , be , involve , in , negotiate , implement , with , | Disabilities Act
+361	he | direct , and , be , involve , in , negotiate , implement , | the Americans
+361	he | direct , and , be , involve , in , negotiate , of , | the Justice Department 's regulation
+361	he | direct , and , be , involve , in , negotiate , with , | promulgation
+361	he | direct , and , be , involve , in , negotiate , amend , of , | Civil Rights Act
+361	he | direct , | all employment discrimination suit
+361	he | direct , bring , by , | the Department of Justice
+361	he | direct , and , be , involve , in , negotiate , | Civil Rights Act of 1991
+361	he | direct , and , be , involve , in , negotiate , amend , | Title VII
+362	he receive | from , | Queens University in Kingston
+363	author | | the commercialized child
+363	a professor of sociology | at , | Boston College
+363	the idea of recreational shopping | be , | a professor of sociology
+364	Ehud Olmert | say , after , | the bombing
+364	never-ending struggle | against , | terrorist
+365	Senator Joseph R. Biden Jr. of Delaware | have announce , | candidacy
+365	Representative | of , | Ohio
+366	it | collect , for , | the Palestinians
+366	a meeting | schedule , for , | Thursday
+366	a meeting | have , be postpone , over , what , appear , to , | the issue of the condition
+366	a meeting | schedule , between , | prime minister of Israel
+366	Israel | would , turn over , | tax revenue
+367	Mr. Marri | receive , perform , know , as , | a combatant status review tribunal
+367	Mr. Marri | receive , perform , by , | a military panel
+367	Mr. Marri | receive , | the cursory review
+367	Mr. Marri | receive , | he
+367	Mr. Marri | receive , of , | designation
+367	Mr. Marri | receive , as , | enemy combatant
+368	he | restore , in , | the mid-1960
+368	Library | in , | Greenwich Village
+369	a outspoken republican critic of the administration 's | put , over , | the war
+369	a outspoken republican critic of the administration 's | put , on , | congressional showdown
+369	a outspoken republican critic of the administration 's | put , | a bipartisan stamp
+369	a outspoken republican critic of the administration 's | | lead democrat
+369	a outspoken republican critic of the administration 's | in , introduce , | a resolution
+369	a outspoken republican critic of the administration 's | in , introduce , oppose , | President Bush 's buildup
+369	a outspoken republican critic of the administration 's | in , introduce , oppose , of , | troops in Iraq
+371	wording | draw , | the attention of some lawmaker
+371	the Senate 's intent | to , contravene , | wording
+375	charge | of , receive , and , | supplies
+375	charge | of , receive , and , | money
+375	he be not | in , | charge
+376	Hamas | continue , | israeli civilian
+377	American official | be welcome , as , | a sign
+377	American official | be welcome , with , | Iran
+377	American official | be welcome , on , | the situation
+377	American official | be welcome , | russian support
+378	other fire department | have , sponsor , | a recruitment specialist
+378	other fire department | from , | Hartford
+378	other fire department | in , | Connecticut
+379	be at the top of a giant boat | I feel , | so small
+379	be at the top of a giant boat | in , | the morning
+380	Cuyahoga County | have , one , and , say , be , | yet to come
+380	Cuyahoga County | have one of , | foreclosure rate
+380	Cuyahoga County | have , | one of the country 's highest
+381	Brigham and Women 's hospital | in , | Boston
+381	a second-year fellow | in , | infectious disease
+382	the threat | from , | Iran and North Korea
+383	what they describe | as , | a travesty
+383	colleague | have , dig in , against , | what they describe
+383	colleague | like , | Jim DeMint of South Carolina
+384	the new chief | would help , with , | growing pain
+384	the new chief | would help , | JetBlue
+384	Mr. Barger | work , before , | JetBlue
+385	a reporter | for , | the New York Times
+385	Hoboken | now live in , | Montclair
+385	Hoboken | in , | the 1970
+385	Hoboken | feature , | the photograph
+385	Hoboken | feature , in , | the exhibition
+385	Hoboken | feature , | essay
+386	a second pentagon-organized trip | take , | Cuba
+386	a second pentagon-organized trip | in , | February
+386	a second pentagon-organized trip | take , | Mr. Vahradian
+386	a second pentagon-organized trip | take , to , | the american naval base
+386	a second pentagon-organized trip | take , in , | Guantánamo Bay
+387	a american citizen | find , on , | body
+387	a american citizen | find , | he
+387	islamist militant | have be kill , include one , who , | accord to document
+387	islamist militant | have be kill , include one , who , | a american citizen
+388	that Israel have | build , across , | the West Bank
+388	that Israel have | build , in , | the name of security
+388	the top of palestinian house | be , | that Israel have
+388	the top of palestinian house | be , behind , | the hideous concrete barrier
+389	de | | France
+389	de | from , | England
+389	de | | other composer
+389	de | | Italy
+389	Whortleberry | inspire , by , | medieval garden
+389	de | | Spain
+389	Whortleberry | inspire , | flora
+389	Whortleberry | inspire , | de
+389	de | | the Netherlands
+389	Whortleberry | inspire , | metaphorical imagery
+390	the next match | be , play , under , | a closed roof
+390	the next match | between , | Chris Guccione of Australia
+391	who have long | criticize , | the Bush administration 's tax cut
+391	tone | echo , | the comment of Senator Kent Conrad
+391	who have long | criticize , and , warn , of , | the risk of long-term federal deficit
+391	tone | of , | urgency
+392	a philosopher | come , | this fall
+392	be the editor | with , | Martin Bunzl
+392	Kwame Anthony Appiah | at , | be the editor
+394	the Justice Department | stem from , | Ms. Goodling 's refusal
+394	the Justice Department | to , | issue
+395	a enduring symbol | of , | despotic extravagance
